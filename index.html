@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Safe-by-default MCP servers — Kubernetes, Kafka, ClickHouse, Azure & more | dockndevai</title>
+  <meta name="description" content="Ten open-source, safe-by-default Model Context Protocol (MCP) servers that let AI agents operate real infrastructure — Kubernetes, Kafka, ClickHouse, Debezium, OCI, Azure, Azure DevOps, Keycloak, Percona PostgreSQL — plus RAG over your own documents. Read-only by default, allowlisted, audited." />
+  <meta name="keywords" content="MCP server, Model Context Protocol, Claude, AI agents, Kubernetes MCP, Kafka MCP, ClickHouse MCP, Azure MCP, OCI MCP, Keycloak MCP, Debezium MCP, Percona PostgreSQL MCP, RAG MCP, agent memory, safe-by-default, DevOps AI, infrastructure automation" />
+  <meta name="author" content="Ankit Verma (dockndevai)" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://dockndevai.github.io/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="dockndevai — MCP server suite" />
+  <meta property="og:title" content="Safe-by-default MCP servers for real infrastructure" />
+  <meta property="og:description" content="Ten open-source MCP servers that let AI agents operate Kubernetes, Kafka, ClickHouse, Azure, OCI, Keycloak, Percona PostgreSQL and your own documents — read-only by default, allowlisted, audited." />
+  <meta property="og:url" content="https://dockndevai.github.io/" />
+  <meta property="og:image" content="https://dockndevai.github.io/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Safe-by-default MCP servers for real infrastructure" />
+  <meta name="twitter:description" content="Ten open-source MCP servers for AI agents — Kubernetes, Kafka, ClickHouse, Azure, OCI, Keycloak, Percona PostgreSQL, and RAG over your own docs. Read-only by default." />
+  <meta name="twitter:image" content="https://dockndevai.github.io/og-image.png" />
+
+  <meta name="theme-color" content="#0b1220" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="sitemap" type="application/xml" href="sitemap.xml" />
+
+  <!-- Structured data: the suite as an ItemList of SoftwareApplications -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "dockndevai MCP server suite",
+    "description": "Safe-by-default Model Context Protocol servers for AI agents operating real infrastructure and knowledge.",
+    "url": "https://dockndevai.github.io/",
+    "itemListElement": [
+      { "@type": "SoftwareApplication", "position": 1, "name": "mcp-kubernetes", "applicationCategory": "DeveloperApplication", "operatingSystem": "Node.js", "offers": {"@type":"Offer","price":"0","priceCurrency":"USD"}, "url": "https://github.com/dockndevai/mcp-kubernetes", "description": "MCP server for Kubernetes — multi-cluster ops with read-only/read-write/admin access modes." },
+      { "@type": "SoftwareApplication", "position": 2, "name": "mcp-kafka", "applicationCategory": "DeveloperApplication", "operatingSystem": "Node.js", "offers": {"@type":"Offer","price":"0","priceCurrency":"USD"}, "url": "https://github.com/dockndevai/mcp-kafka", "description": "MCP server for Apache Kafka — clusters, topics, consumer groups and lag." },
+      { "@type": "SoftwareApplication", "position": 3, "name": "mcp-clickhouse", "applicationCategory": "DeveloperApplication", "operatingSystem": "Node.js", "offers": {"@type":"Offer","price":"0","priceCurrency":"USD"}, "url": "https://github.com/dockndevai/mcp-clickhouse", "description": "MCP server for ClickHouse — SQL-classification-based security modes." },
+      { "@type": "SoftwareApplication", "position": 4, "name": "mcp-debezium", "applicationCategory": "DeveloperApplication", "operatingSystem": "Node.js", "offers": {"@type":"Offer","price":"0","priceCurrency":"USD"}, "url": "https://github.com/dockndevai/mcp-debezium", "description": "MCP server for Debezium / Kafka Connect — CDC connector lifecycle." },
+      { "@type": "SoftwareApplication", "position": 5, "name": "mcp-oci", "applicationCategory": "DeveloperApplication", "operatingSystem": "Node.js", "offers": {"@type":"Offer","price":"0","priceCurrency":"USD"}, "url": "https://github.com/dockndevai/mcp-oci", "description": "MCP server for Oracle Cloud — discovery and Terraform generation." },
+      { "@type": "SoftwareApplication", "position": 6, "name": "mcp-azure", "applicationCategory": "DeveloperApplication", "operatingSystem": "Node.js", "offers": {"@type":"Offer","price":"0","priceCurrency":"USD"}, "url": "https://github.com/dockndevai/mcp-azure", "description": "MCP server for Azure Resource Manager — inventory, tags, VM power, lifecycle." },
+      { "@type": "SoftwareApplication", "position": 7, "name": "mcp-azure-devops", "applicationCategory": "DeveloperApplication", "operatingSystem": "Node.js", "offers": {"@type":"Offer","price":"0","priceCurrency":"USD"}, "url": "https://github.com/dockndevai/mcp-azure-devops", "description": "MCP server for Azure DevOps — boards, repos, pipelines, projects." },
+      { "@type": "SoftwareApplication", "position": 8, "name": "mcp-keycloak", "applicationCategory": "DeveloperApplication", "operatingSystem": "Node.js", "offers": {"@type":"Offer","price":"0","priceCurrency":"USD"}, "url": "https://github.com/dockndevai/mcp-keycloak", "description": "MCP server for Keycloak — multi-realm admin (users, clients, roles, groups)." },
+      { "@type": "SoftwareApplication", "position": 9, "name": "mcp-percona-pg", "applicationCategory": "DeveloperApplication", "operatingSystem": "Node.js", "offers": {"@type":"Offer","price":"0","priceCurrency":"USD"}, "url": "https://github.com/dockndevai/mcp-percona-pg", "description": "MCP server for the Percona Operator for PostgreSQL — pooling, backups/PITR, DR." },
+      { "@type": "SoftwareApplication", "position": 10, "name": "ossian-mcp", "applicationCategory": "DeveloperApplication", "operatingSystem": "Node.js", "offers": {"@type":"Offer","price":"0","priceCurrency":"USD"}, "url": "https://github.com/dockndevai/ossian-mcp", "description": "MCP server for Ossian — ask your own documents with citations, plus durable agent memory (RAG)." }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "dockndevai MCP server suite",
+    "url": "https://dockndevai.github.io/",
+    "author": { "@type": "Person", "name": "Ankit Verma", "url": "https://github.com/dockndevai" }
+  }
+  </script>
+
+  <style>
+    :root{
+      --bg:#ffffff; --bg-soft:#f5f7fa; --card:#ffffff; --border:#e3e8ef;
+      --fg:#0b1220; --muted:#5b6472; --accent:#0d9f6e; --accent-ink:#065f43;
+      --code-bg:#0b1220; --code-fg:#d7e0ea; --shadow:0 1px 2px rgba(16,24,40,.06),0 8px 24px rgba(16,24,40,.06);
+    }
+    @media (prefers-color-scheme: dark){
+      :root{
+        --bg:#0b1220; --bg-soft:#0f1a2e; --card:#111c30; --border:#1e2c44;
+        --fg:#e9eef6; --muted:#9aa7bd; --accent:#2ee6a6; --accent-ink:#8ff4d2;
+        --code-bg:#060c17; --code-fg:#cdd8e6; --shadow:0 1px 2px rgba(0,0,0,.4),0 12px 32px rgba(0,0,0,.35);
+      }
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0; background:var(--bg); color:var(--fg);
+      font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      -webkit-font-smoothing:antialiased;
+    }
+    a{color:inherit}
+    .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+    code,kbd,pre{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+
+    /* Header */
+    header.site{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+    header.site .wrap{display:flex;align-items:center;gap:16px;height:60px}
+    .brand{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:-.01em;text-decoration:none}
+    .brand .dot{width:22px;height:22px;border-radius:6px;background:linear-gradient(135deg,var(--accent),#1573ff);display:inline-block}
+    header.site nav{margin-left:auto;display:flex;gap:20px;font-size:14px}
+    header.site nav a{color:var(--muted);text-decoration:none}
+    header.site nav a:hover{color:var(--fg)}
+    @media(max-width:640px){header.site nav a:not(.gh){display:none}}
+
+    /* Hero */
+    .hero{padding:76px 0 40px;text-align:center;background:radial-gradient(1200px 400px at 50% -80px,color-mix(in srgb,var(--accent) 14%,transparent),transparent)}
+    .pill{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:var(--accent-ink);background:color-mix(in srgb,var(--accent) 14%,transparent);border:1px solid color-mix(in srgb,var(--accent) 30%,transparent);padding:5px 12px;border-radius:999px;font-weight:600}
+    .hero h1{font-size:clamp(30px,5vw,52px);line-height:1.05;letter-spacing:-.03em;margin:20px auto 14px;max-width:16ch}
+    .hero h1 .g{background:linear-gradient(120deg,var(--accent),#1573ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+    .hero p.lead{font-size:clamp(16px,2.2vw,20px);color:var(--muted);max-width:60ch;margin:0 auto 28px}
+    .cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:11px 18px;border-radius:10px;text-decoration:none;font-weight:600;font-size:15px;border:1px solid var(--border)}
+    .btn.primary{background:var(--accent);color:#04120c;border-color:transparent}
+    .btn.primary:hover{filter:brightness(1.06)}
+    .btn.ghost{background:var(--card);color:var(--fg)}
+    .btn.ghost:hover{border-color:var(--accent)}
+
+    /* Trust bar */
+    .trust{display:flex;gap:26px;justify-content:center;flex-wrap:wrap;color:var(--muted);font-size:14px;margin-top:34px}
+    .trust b{color:var(--fg)}
+
+    /* Sections */
+    section{padding:56px 0}
+    .eyebrow{color:var(--accent-ink);font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase}
+    h2{font-size:clamp(24px,3.5vw,34px);letter-spacing:-.02em;margin:8px 0 10px}
+    .sub{color:var(--muted);max-width:62ch;margin:0 0 28px}
+
+    /* Governance grid */
+    .feat{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    @media(max-width:820px){.feat{grid-template-columns:1fr}}
+    .feat .c{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:20px;box-shadow:var(--shadow)}
+    .feat .c h3{margin:0 0 6px;font-size:17px}
+    .feat .c p{margin:0;color:var(--muted);font-size:14.5px}
+    .feat .c .ic{font-size:20px}
+
+    /* Server cards */
+    .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+    @media(max-width:760px){.grid{grid-template-columns:1fr}}
+    .srv{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px 18px 16px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:12px}
+    .srv .top{display:flex;align-items:center;justify-content:space-between;gap:10px}
+    .srv h3{margin:0;font-size:17px;letter-spacing:-.01em}
+    .srv h3 a{text-decoration:none}
+    .srv h3 a:hover{color:var(--accent)}
+    .tag{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:3px 8px;border-radius:999px;border:1px solid var(--border);color:var(--muted);white-space:nowrap}
+    .tag.k{color:var(--accent-ink);border-color:color-mix(in srgb,var(--accent) 30%,transparent);background:color-mix(in srgb,var(--accent) 10%,transparent)}
+    .srv p{margin:0;color:var(--muted);font-size:14.5px;flex:1}
+    .install{display:flex;align-items:center;gap:8px;background:var(--code-bg);border-radius:9px;padding:9px 10px}
+    .install code{color:var(--code-fg);font-size:12.5px;overflow:auto;white-space:nowrap;flex:1}
+    .copy{border:1px solid #2a3a55;background:transparent;color:#9fb2cc;border-radius:6px;padding:4px 8px;font-size:11px;cursor:pointer}
+    .copy:hover{color:#fff;border-color:var(--accent)}
+    .links{display:flex;gap:14px;font-size:13px}
+    .links a{color:var(--muted);text-decoration:none}
+    .links a:hover{color:var(--accent)}
+
+    /* Install steps */
+    .steps{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:start}
+    @media(max-width:820px){.steps{grid-template-columns:1fr}}
+    pre.block{background:var(--code-bg);color:var(--code-fg);padding:18px;border-radius:12px;overflow:auto;font-size:13px;line-height:1.7;margin:0}
+    .steps ol{margin:0;padding-left:18px;color:var(--muted)}
+    .steps ol li{margin-bottom:12px}
+    .steps ol b{color:var(--fg)}
+
+    /* Footer */
+    footer{border-top:1px solid var(--border);padding:34px 0;color:var(--muted);font-size:14px}
+    footer .wrap{display:flex;gap:16px;flex-wrap:wrap;align-items:center;justify-content:space-between}
+    footer a{color:var(--muted);text-decoration:none}
+    footer a:hover{color:var(--accent)}
+    .foot-links{display:flex;gap:18px;flex-wrap:wrap}
+  </style>
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="/"><span class="dot" aria-hidden="true"></span>dockndevai</a>
+      <nav>
+        <a href="#servers">Servers</a>
+        <a href="#governance">Security model</a>
+        <a href="#install">Install</a>
+        <a class="gh" href="https://github.com/dockndevai" rel="me">GitHub ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <span class="pill">● Safe by default · read-only until you say otherwise</span>
+        <h1>MCP servers that let agents run <span class="g">real infrastructure</span></h1>
+        <p class="lead">Ten open-source <strong>Model Context Protocol</strong> servers — Kubernetes, Kafka, ClickHouse, Debezium, OCI, Azure, Azure DevOps, Keycloak, Percona PostgreSQL, and RAG over your own documents. One governance model across all of them: layered access modes, allowlists, delete gating, dry-run, and audit logging.</p>
+        <div class="cta">
+          <a class="btn primary" href="#servers">Browse the servers</a>
+          <a class="btn ghost" href="https://github.com/dockndevai" rel="me">View on GitHub ↗</a>
+        </div>
+        <div class="trust">
+          <span><b>10</b> servers</span>
+          <span><b>MIT</b> &amp; Apache-2.0</span>
+          <span>on <b>npm</b> + the Official <b>MCP Registry</b></span>
+          <span>Claude · Cursor · Codex · VS Code · Windsurf</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="governance">
+      <div class="wrap">
+        <span class="eyebrow">One governance model</span>
+        <h2>Least privilege, enforced — not documented</h2>
+        <p class="sub">Every server shares a pure, unit-tested policy engine. Over-privileged tools are never even advertised to the model; each call is re-checked at runtime.</p>
+        <div class="feat">
+          <div class="c"><div class="ic">🔒</div><h3>Read-only by default</h3><p>Servers start in <code>read-only</code> mode. Write and admin tools aren't registered until you raise the access mode deliberately.</p></div>
+          <div class="c"><div class="ic">🎯</div><h3>Allowlists &amp; protected resources</h3><p>Scope to specific namespaces, databases, projects or subscriptions. Protected resources can be read but never mutated.</p></div>
+          <div class="c"><div class="ic">🧨</div><h3>Delete gating</h3><p>Destructive operations need the admin mode <em>and</em> an explicit opt-in flag — the most dangerous aren't registered without it.</p></div>
+          <div class="c"><div class="ic">✍️</div><h3>Typed confirmation</h3><p>High-impact operations require echoing the exact target name back, so an agent can't fat-finger a production resource.</p></div>
+          <div class="c"><div class="ic">🧪</div><h3>Dry-run</h3><p>Validate and log write intent without executing it — preview exactly what an agent would change.</p></div>
+          <div class="c"><div class="ic">🧾</div><h3>JSON audit log</h3><p>Every guarded operation emits a structured audit line to stderr. Secrets are redacted from all output.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="servers" style="background:var(--bg-soft)">
+      <div class="wrap">
+        <span class="eyebrow">The suite</span>
+        <h2>Ten servers, one install pattern</h2>
+        <p class="sub">Each runs over stdio and installs with a single <code>npx</code> command. Full per-client setup lives in every repo's <code>docs/CLIENTS.md</code>.</p>
+        <div class="grid">
+
+          <article class="srv">
+            <div class="top"><h3><a href="https://github.com/dockndevai/mcp-kubernetes">mcp-kubernetes</a></h3><span class="tag k">Infra</span></div>
+            <p>Multi-cluster ops — pods, logs, deployments, scale/restart, apply, exec — with read-only / read-write / admin modes.</p>
+            <div class="install"><code>npx -y @dockndevai/mcp-kubernetes</code><button class="copy" data-cmd="npx -y @dockndevai/mcp-kubernetes">Copy</button></div>
+            <div class="links"><a href="https://github.com/dockndevai/mcp-kubernetes">GitHub</a><a href="https://www.npmjs.com/package/@dockndevai/mcp-kubernetes">npm</a></div>
+          </article>
+
+          <article class="srv">
+            <div class="top"><h3><a href="https://github.com/dockndevai/mcp-kafka">mcp-kafka</a></h3><span class="tag k">Infra</span></div>
+            <p>Apache Kafka — clusters, topics, consumer groups with lag; create / alter / reset with security modes.</p>
+            <div class="install"><code>npx -y @dockndevai/mcp-kafka</code><button class="copy" data-cmd="npx -y @dockndevai/mcp-kafka">Copy</button></div>
+            <div class="links"><a href="https://github.com/dockndevai/mcp-kafka">GitHub</a><a href="https://www.npmjs.com/package/@dockndevai/mcp-kafka">npm</a></div>
+          </article>
+
+          <article class="srv">
+            <div class="top"><h3><a href="https://github.com/dockndevai/mcp-clickhouse">mcp-clickhouse</a></h3><span class="tag k">Infra</span></div>
+            <p>ClickHouse — explore schema, run queries, manage — with SQL-classification-based read/write/destructive gating.</p>
+            <div class="install"><code>npx -y @dockndevai/mcp-clickhouse</code><button class="copy" data-cmd="npx -y @dockndevai/mcp-clickhouse">Copy</button></div>
+            <div class="links"><a href="https://github.com/dockndevai/mcp-clickhouse">GitHub</a><a href="https://www.npmjs.com/package/@dockndevai/mcp-clickhouse">npm</a></div>
+          </article>
+
+          <article class="srv">
+            <div class="top"><h3><a href="https://github.com/dockndevai/mcp-debezium">mcp-debezium</a></h3><span class="tag k">Infra</span></div>
+            <p>Debezium / Kafka Connect — monitor and manage CDC connectors: status, config and lifecycle.</p>
+            <div class="install"><code>npx -y @dockndevai/mcp-debezium</code><button class="copy" data-cmd="npx -y @dockndevai/mcp-debezium">Copy</button></div>
+            <div class="links"><a href="https://github.com/dockndevai/mcp-debezium">GitHub</a><a href="https://www.npmjs.com/package/@dockndevai/mcp-debezium">npm</a></div>
+          </article>
+
+          <article class="srv">
+            <div class="top"><h3><a href="https://github.com/dockndevai/mcp-oci">mcp-oci</a></h3><span class="tag k">Cloud</span></div>
+            <p>Oracle Cloud (OCI) — live resource discovery, dependency mapping, and Terraform generation.</p>
+            <div class="install"><code>npx -y @dockndevai/mcp-oci</code><button class="copy" data-cmd="npx -y @dockndevai/mcp-oci">Copy</button></div>
+            <div class="links"><a href="https://github.com/dockndevai/mcp-oci">GitHub</a><a href="https://www.npmjs.com/package/@dockndevai/mcp-oci">npm</a></div>
+          </article>
+
+          <article class="srv">
+            <div class="top"><h3><a href="https://github.com/dockndevai/mcp-azure">mcp-azure</a></h3><span class="tag k">Cloud</span></div>
+            <p>Azure Resource Manager — inventory, tags, VM power and lifecycle, with scoping and protected groups.</p>
+            <div class="install"><code>npx -y @dockndevai/mcp-azure</code><button class="copy" data-cmd="npx -y @dockndevai/mcp-azure">Copy</button></div>
+            <div class="links"><a href="https://github.com/dockndevai/mcp-azure">GitHub</a><a href="https://www.npmjs.com/package/@dockndevai/mcp-azure">npm</a></div>
+          </article>
+
+          <article class="srv">
+            <div class="top"><h3><a href="https://github.com/dockndevai/mcp-azure-devops">mcp-azure-devops</a></h3><span class="tag k">DevOps</span></div>
+            <p>Azure DevOps — boards, repos, pipelines and projects — with project scoping and typed confirmation.</p>
+            <div class="install"><code>npx -y @dockndevai/mcp-azure-devops</code><button class="copy" data-cmd="npx -y @dockndevai/mcp-azure-devops">Copy</button></div>
+            <div class="links"><a href="https://github.com/dockndevai/mcp-azure-devops">GitHub</a><a href="https://www.npmjs.com/package/@dockndevai/mcp-azure-devops">npm</a></div>
+          </article>
+
+          <article class="srv">
+            <div class="top"><h3><a href="https://github.com/dockndevai/mcp-keycloak">mcp-keycloak</a></h3><span class="tag k">Identity</span></div>
+            <p>Keycloak — multi-realm admin: users, clients, roles and groups, with read-only / read-write / admin modes.</p>
+            <div class="install"><code>npx -y @dockndevai/mcp-keycloak</code><button class="copy" data-cmd="npx -y @dockndevai/mcp-keycloak">Copy</button></div>
+            <div class="links"><a href="https://github.com/dockndevai/mcp-keycloak">GitHub</a><a href="https://www.npmjs.com/package/@dockndevai/mcp-keycloak">npm</a></div>
+          </article>
+
+          <article class="srv">
+            <div class="top"><h3><a href="https://github.com/dockndevai/mcp-percona-pg">mcp-percona-pg</a></h3><span class="tag k">Database</span></div>
+            <p>Percona Operator for PostgreSQL — PgBouncer pooling, tuning, backups / PITR, DR and major-version upgrades.</p>
+            <div class="install"><code>npx -y @dockndevai/mcp-percona-pg</code><button class="copy" data-cmd="npx -y @dockndevai/mcp-percona-pg">Copy</button></div>
+            <div class="links"><a href="https://github.com/dockndevai/mcp-percona-pg">GitHub</a><a href="https://www.npmjs.com/package/@dockndevai/mcp-percona-pg">npm</a></div>
+          </article>
+
+          <article class="srv">
+            <div class="top"><h3><a href="https://github.com/dockndevai/ossian-mcp">ossian-mcp</a></h3><span class="tag">Knowledge · RAG</span></div>
+            <p>Ask your own documents and get answers with the exact passages they came from — plus durable agent memory ranked by relevance, importance and recency.</p>
+            <div class="install"><code>npx -y ossian-mcp</code><button class="copy" data-cmd="npx -y ossian-mcp">Copy</button></div>
+            <div class="links"><a href="https://github.com/dockndevai/ossian-mcp">GitHub</a><a href="https://www.npmjs.com/package/ossian-mcp">npm</a></div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="install">
+      <div class="wrap">
+        <span class="eyebrow">Get started</span>
+        <h2>Add one to your agent in a minute</h2>
+        <p class="sub">Every server is a standard stdio MCP server on npm. Here it is in Claude Code — start in <code>read-only</code> and raise the mode when you need to.</p>
+        <div class="steps">
+          <pre class="block"><code># Claude Code — mcp-kubernetes, read-only
+claude mcp add kubernetes \
+  -e K8S_MODE="read-only" \
+  -- npx -y @dockndevai/mcp-kubernetes
+
+# Or wire any server into claude_desktop_config.json:
+{
+  "mcpServers": {
+    "kubernetes": {
+      "command": "npx",
+      "args": ["-y", "@dockndevai/mcp-kubernetes"],
+      "env": { "K8S_MODE": "read-only" }
+    }
+  }
+}</code></pre>
+          <ol>
+            <li><b>Pick a server</b> from the suite above and copy its <code>npx</code> command.</li>
+            <li><b>Start read-only.</b> Every server boots in the safest mode; only read tools are exposed.</li>
+            <li><b>Raise the mode deliberately</b> when you need writes — <code>read-write</code>, then <code>admin</code> plus an opt-in flag for anything destructive.</li>
+            <li><b>Per-client setup</b> (Claude, Cursor, Codex, VS Code, Windsurf) is in each repo's <code>docs/CLIENTS.md</code>.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div>Built by <a href="https://github.com/dockndevai" rel="me">Ankit Verma</a> · Open source · MIT &amp; Apache-2.0</div>
+      <div class="foot-links">
+        <a href="https://github.com/dockndevai">GitHub</a>
+        <a href="https://www.npmjs.com/~dockndevai">npm</a>
+        <a href="https://registry.modelcontextprotocol.io/">MCP Registry</a>
+        <a href="https://github.com/punkpeye/awesome-mcp-servers">Awesome MCP</a>
+        <a href="https://modelcontextprotocol.io/">What is MCP?</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.copy').forEach(function(b){
+      b.addEventListener('click', function(){
+        var cmd = b.getAttribute('data-cmd');
+        navigator.clipboard && navigator.clipboard.writeText(cmd);
+        var t = b.textContent; b.textContent = 'Copied'; setTimeout(function(){ b.textContent = t; }, 1200);
+      });
+    });
+  </script>
+</body>
+</html>
