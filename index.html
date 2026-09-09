@@ -206,10 +206,14 @@
           <div class="c"><div class="ic">🔒</div><h3>Read-only by default</h3><p>Servers start in <code>read-only</code> mode. Write and admin tools aren't registered until you raise the access mode deliberately.</p></div>
           <div class="c"><div class="ic">🎯</div><h3>Allowlists &amp; protected resources</h3><p>Scope to specific namespaces, databases, projects or subscriptions. Protected resources can be read but never mutated.</p></div>
           <div class="c"><div class="ic">🧨</div><h3>Delete gating</h3><p>Destructive operations need the admin mode <em>and</em> an explicit opt-in flag — the most dangerous aren't registered without it.</p></div>
-          <div class="c"><div class="ic">✍️</div><h3>Typed confirmation</h3><p>High-impact operations require echoing the exact target name back, so an agent can't fat-finger a production resource.</p></div>
+          <div class="c"><div class="ic">✍️</div><h3>Human-in-the-loop approval</h3><p>Destructive &amp; high-impact actions pause and ask the person to approve — live, via MCP elicitation — before they run. A model can't approve on your behalf.</p></div>
           <div class="c"><div class="ic">🧪</div><h3>Dry-run</h3><p>Validate and log write intent without executing it — preview exactly what an agent would change.</p></div>
           <div class="c"><div class="ic">🧾</div><h3>JSON audit log</h3><p>Every guarded operation emits a structured audit line to stderr. Secrets are redacted from all output.</p></div>
         </div>
+        <figure style="margin:2.75rem auto 0;max-width:840px;text-align:center">
+          <img src="https://raw.githubusercontent.com/dockndevai/mcp-grafana/main/docs/confirm-demo.gif" alt="Interactive confirmation — the agent asks to delete a dashboard; the server pauses and asks the human via MCP elicitation. Declining leaves it untouched; approving proceeds." style="width:100%;border-radius:14px;border:1px solid rgba(128,128,128,.28);box-shadow:0 10px 40px rgba(0,0,0,.28)" loading="lazy">
+          <figcaption class="sub" style="margin-top:.85rem">Human-in-the-loop confirmation in action — new in v0.2.</figcaption>
+        </figure>
       </div>
     </section>
 
