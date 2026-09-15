@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Safe-by-default MCP servers — Kubernetes, Kafka, ClickHouse, Azure & more | dockndevai</title>
-  <meta name="description" content="Twelve open-source, safe-by-default Model Context Protocol (MCP) servers that let AI agents operate real infrastructure — Kubernetes, Kafka, ClickHouse, Debezium, OCI, Azure, Azure DevOps, Keycloak, Percona PostgreSQL, Grafana — plus RAG over your own documents. Read-only by default, allowlisted, audited." />
+  <meta name="description" content="Fourteen open-source, safe-by-default Model Context Protocol (MCP) servers that let AI agents operate real infrastructure — Kubernetes, Kafka, ClickHouse, Debezium, OCI, Azure, Azure DevOps, Keycloak, Percona PostgreSQL, Grafana — plus RAG over your own documents, Mac control, and Microsoft 365 mail (Outlook) & Teams. Read-only by default, allowlisted, audited." />
   <meta name="keywords" content="MCP server, Model Context Protocol, Claude, AI agents, Kubernetes MCP, Kafka MCP, ClickHouse MCP, Azure MCP, OCI MCP, Keycloak MCP, Debezium MCP, Percona PostgreSQL MCP, RAG MCP, agent memory, safe-by-default, DevOps AI, infrastructure automation" />
   <meta name="author" content="Ankit Verma (dockndevai)" />
   <meta name="robots" content="index, follow" />
@@ -15,7 +15,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="dockndevai — MCP server suite" />
   <meta property="og:title" content="Safe-by-default MCP servers for real infrastructure" />
-  <meta property="og:description" content="Twelve open-source MCP servers that let AI agents operate Kubernetes, Kafka, ClickHouse, Azure, OCI, Keycloak, Percona PostgreSQL, Grafana and your own documents — read-only by default, allowlisted, audited." />
+  <meta property="og:description" content="Fourteen open-source MCP servers that let AI agents operate Kubernetes, Kafka, ClickHouse, Azure, OCI, Keycloak, Percona PostgreSQL, Grafana, your own documents, your Mac, and Microsoft 365 (Outlook & Teams) — read-only by default, allowlisted, audited." />
   <meta property="og:url" content="https://dockndevai.github.io/" />
   <meta property="og:image" content="https://dockndevai.github.io/og-image.png" />
   <meta property="og:image:width" content="1200" />
@@ -24,7 +24,7 @@
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Safe-by-default MCP servers for real infrastructure" />
-  <meta name="twitter:description" content="Twelve open-source MCP servers for AI agents — Kubernetes, Kafka, ClickHouse, Azure, OCI, Keycloak, Percona PostgreSQL, Grafana, and RAG over your own docs. Read-only by default." />
+  <meta name="twitter:description" content="Fourteen open-source MCP servers for AI agents — Kubernetes, Kafka, ClickHouse, Azure, OCI, Keycloak, Percona PostgreSQL, Grafana, RAG over your own docs, Mac control, and Microsoft 365 (Outlook & Teams). Read-only by default." />
   <meta name="twitter:image" content="https://dockndevai.github.io/og-image.png" />
 
   <meta name="theme-color" content="#0b1220" media="(prefers-color-scheme: dark)" />
@@ -52,7 +52,9 @@
       { "@type": "SoftwareApplication", "position": 9, "name": "mcp-percona-pg", "applicationCategory": "DeveloperApplication", "operatingSystem": "Node.js 22+", "offers": {"@type":"Offer","price":"0","priceCurrency":"USD"}, "url": "https://github.com/dockndevai/mcp-percona-pg", "description": "MCP server for the Percona Operator for PostgreSQL — pooling, backups/PITR, DR." },
       { "@type": "SoftwareApplication", "position": 10, "name": "mcp-grafana", "applicationCategory": "DeveloperApplication", "operatingSystem": "Node.js 22+", "offers": {"@type":"Offer","price":"0","priceCurrency":"USD"}, "url": "https://github.com/dockndevai/mcp-grafana", "description": "MCP server for Grafana — search & edit dashboards, query datasources (Prometheus/Loki/SQL), inspect alerts & annotations." },
       { "@type": "SoftwareApplication", "position": 11, "name": "ossian-mcp", "applicationCategory": "DeveloperApplication", "operatingSystem": "Node.js 22+", "offers": {"@type":"Offer","price":"0","priceCurrency":"USD"}, "url": "https://github.com/dockndevai/ossian-mcp", "description": "MCP server for Ossian — ask your own documents with citations, plus durable agent memory (RAG)." },
-      { "@type": "SoftwareApplication", "position": 12, "name": "mcp-macos", "applicationCategory": "DeveloperApplication", "operatingSystem": "macOS", "offers": {"@type":"Offer","price":"0","priceCurrency":"USD"}, "url": "https://github.com/dockndevai/mcp-macos", "description": "MCP server for macOS — observe and operate a Mac (files, processes, apps, screenshots, shell, AppleScript, GUI) safely." }
+      { "@type": "SoftwareApplication", "position": 12, "name": "mcp-macos", "applicationCategory": "DeveloperApplication", "operatingSystem": "macOS", "offers": {"@type":"Offer","price":"0","priceCurrency":"USD"}, "url": "https://github.com/dockndevai/mcp-macos", "description": "MCP server for macOS — observe and operate a Mac (files, processes, apps, screenshots, shell, AppleScript, GUI) safely." },
+      { "@type": "SoftwareApplication", "position": 13, "name": "mcp-outlook", "applicationCategory": "DeveloperApplication", "operatingSystem": "Node.js 22+", "offers": {"@type":"Offer","price":"0","priceCurrency":"USD"}, "url": "https://github.com/dockndevai/mcp-outlook", "description": "MCP server for Microsoft Outlook mail (Microsoft Graph) — read, search, draft, send, reply, forward and organize email, with browser sign-in and safe-by-default access modes." },
+      { "@type": "SoftwareApplication", "position": 14, "name": "mcp-teams", "applicationCategory": "DeveloperApplication", "operatingSystem": "Node.js 22+", "offers": {"@type":"Offer","price":"0","priceCurrency":"USD"}, "url": "https://github.com/dockndevai/mcp-teams", "description": "MCP server for Microsoft Teams (Microsoft Graph) — read teams, channels, chats and messages, and post/reply/send, with browser sign-in and safe-by-default access modes." }
     ]
   }
   </script>
@@ -184,13 +186,13 @@
       <div class="wrap">
         <span class="pill">● Safe by default · read-only until you say otherwise</span>
         <h1>MCP servers that let agents run <span class="g">real infrastructure</span></h1>
-        <p class="lead">Twelve open-source <strong>Model Context Protocol</strong> servers — Kubernetes, Kafka, ClickHouse, Debezium, OCI, Azure, Azure DevOps, Keycloak, Percona PostgreSQL, Grafana, and RAG over your own documents. One governance model across all of them: layered access modes, allowlists, delete gating, dry-run, and audit logging.</p>
+        <p class="lead">Fourteen open-source <strong>Model Context Protocol</strong> servers — Kubernetes, Kafka, ClickHouse, Debezium, OCI, Azure, Azure DevOps, Keycloak, Percona PostgreSQL, Grafana, RAG over your own documents, your Mac, and Microsoft 365 mail &amp; Teams. One governance model across all of them: layered access modes, allowlists, delete gating, dry-run, and audit logging.</p>
         <div class="cta">
           <a class="btn primary" href="#servers">Browse the servers</a>
           <a class="btn ghost" href="https://github.com/dockndevai" rel="me">View on GitHub ↗</a>
         </div>
         <div class="trust">
-          <span><b>11</b> servers</span>
+          <span><b>14</b> servers</span>
           <span><b>MIT</b> &amp; Apache-2.0</span>
           <span>on <b>npm</b> + the Official <b>MCP Registry</b></span>
           <span>Claude · Cursor · Codex · VS Code · Windsurf</span>
@@ -221,7 +223,7 @@
     <section id="servers" style="background:var(--bg-soft)">
       <div class="wrap">
         <span class="eyebrow">The suite</span>
-        <h2>Twelve servers, one install pattern</h2>
+        <h2>Fourteen servers, one install pattern</h2>
         <p class="sub">Each runs over stdio and installs with a single <code>npx</code> command (requires <strong>Node 22+</strong>). Full per-client setup lives in every repo's <code>docs/CLIENTS.md</code>.</p>
         <div class="grid">
 
@@ -307,6 +309,20 @@
             <p>Observe and operate a Mac — files, processes, apps, screenshots, clipboard; and, behind explicit opt-ins, shell, AppleScript, delete-to-Trash and GUI input. Read-only by default, with human confirmation on the dangerous calls.</p>
             <div class="install"><code>npx -y @dockndevai/mcp-macos</code><button class="copy" data-cmd="npx -y @dockndevai/mcp-macos">Copy</button></div>
             <div class="links"><a href="https://github.com/dockndevai/mcp-macos">GitHub</a><a href="https://www.npmjs.com/package/@dockndevai/mcp-macos">npm</a></div>
+          </article>
+
+          <article class="srv">
+            <div class="top"><h3><a href="https://github.com/dockndevai/mcp-outlook">mcp-outlook</a></h3><span class="tag">Microsoft 365</span></div>
+            <p>Outlook mail over Microsoft Graph — read, search, draft, send, reply, forward and organize email. Browser sign-in (OAuth PKCE, no password handling); sending is gated and pauses for human confirmation.</p>
+            <div class="install"><code>npx -y @dockndevai/mcp-outlook</code><button class="copy" data-cmd="npx -y @dockndevai/mcp-outlook">Copy</button></div>
+            <div class="links"><a href="https://github.com/dockndevai/mcp-outlook">GitHub</a><a href="https://www.npmjs.com/package/@dockndevai/mcp-outlook">npm</a></div>
+          </article>
+
+          <article class="srv">
+            <div class="top"><h3><a href="https://github.com/dockndevai/mcp-teams">mcp-teams</a></h3><span class="tag">Microsoft 365</span></div>
+            <p>Microsoft Teams over Microsoft Graph — read teams, channels, chats and their messages, then post, reply in threads and send chats. Browser sign-in; posting is gated and pauses for human confirmation.</p>
+            <div class="install"><code>npx -y @dockndevai/mcp-teams</code><button class="copy" data-cmd="npx -y @dockndevai/mcp-teams">Copy</button></div>
+            <div class="links"><a href="https://github.com/dockndevai/mcp-teams">GitHub</a><a href="https://www.npmjs.com/package/@dockndevai/mcp-teams">npm</a></div>
           </article>
 
         </div>
