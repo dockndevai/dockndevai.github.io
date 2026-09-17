@@ -109,13 +109,13 @@
     header.site .wrap{display:flex;align-items:center;gap:14px;height:60px}
     .brand{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:-.01em;text-decoration:none;white-space:nowrap}
     .brand .dot{width:22px;height:22px;border-radius:6px;background:linear-gradient(135deg,var(--accent),#1573ff);display:inline-block}
-    .nav{margin-left:auto;display:flex;align-items:center;gap:4px}
+    .nav{margin-left:auto;display:flex;align-items:center;gap:4px;position:relative}
     .nav a.link,.nav button.link{color:var(--muted);text-decoration:none;font-size:14px;background:none;border:0;cursor:pointer;padding:8px 12px;border-radius:8px;font:inherit;font-size:14px;display:inline-flex;align-items:center;gap:6px}
     .nav a.link:hover,.nav button.link:hover{color:var(--fg);background:var(--bg-soft)}
     .nav .caret{transition:transform .15s;font-size:11px;opacity:.7}
-    .dropdown{position:relative}
+    .dropdown{position:static}
     .dropdown[data-open="true"] .caret{transform:rotate(180deg)}
-    .dd-panel{position:absolute;top:calc(100% + 8px);right:0;min-width:560px;background:var(--card);border:1px solid var(--border);border-radius:14px;box-shadow:var(--shadow);padding:14px;display:none;grid-template-columns:1fr 1fr;gap:6px 22px}
+    .dd-panel{position:absolute;top:calc(100% + 10px);right:0;width:min(600px,calc(100vw - 32px));background:var(--card);border:1px solid var(--border);border-radius:14px;box-shadow:var(--shadow);padding:14px;display:none;grid-template-columns:1fr 1fr;gap:6px 22px}
     .dropdown[data-open="true"] .dd-panel{display:grid}
     .dd-group{padding:6px 4px}
     .dd-group h4{margin:0 0 4px;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent-ink)}
@@ -217,8 +217,8 @@
     <div class="wrap">
       <a class="brand" href="/"><span class="dot" aria-hidden="true"></span>dockndevai</a>
       <nav class="nav" aria-label="Primary">
-        <div class="dropdown desk" id="productsDropdown">
-          <button class="link" id="productsBtn" aria-haspopup="true" aria-expanded="false" aria-controls="productsPanel">Products <span class="caret" aria-hidden="true">▾</span></button>
+        <div class="dropdown" id="productsDropdown">
+          <button class="link desk" id="productsBtn" aria-haspopup="true" aria-expanded="false" aria-controls="productsPanel">Products <span class="caret" aria-hidden="true">▾</span></button>
           <div class="dd-panel" id="productsPanel" role="menu" aria-label="MCP servers">
             <div class="dd-group">
               <h4>Infrastructure</h4>
