@@ -12,8 +12,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Ankit Verma (dockndevai) — safe-by-default MCP servers, platforms &amp; labs</title>
-  <meta name="description" content="Ankit Verma (dockndevai) builds seventeen open-source, safe-by-default Model Context Protocol (MCP) servers that let AI agents operate real systems — Kubernetes, OpenShift, Kafka, ClickHouse, Debezium, OCI, Azure, Azure DevOps, Keycloak, Percona PostgreSQL, Grafana — plus RAG over your own documents, Mac control, and Microsoft 365 (Outlook, OneDrive, Teams). Read-only by default, allowlisted, audited. Plus the platforms and labs behind them." />
-  <meta name="keywords" content="MCP server, Model Context Protocol, Claude, AI agents, Kubernetes MCP, OpenShift MCP, CDP MCP, Electron MCP, Kafka MCP, ClickHouse MCP, Azure MCP, OCI MCP, Keycloak MCP, Debezium MCP, Percona PostgreSQL MCP, RAG MCP, agent memory, safe-by-default, DevOps AI, infrastructure automation, Ankit Verma, dockndevai" />
+  <meta name="description" content="Ankit Verma (dockndevai) builds eighteen open-source, safe-by-default Model Context Protocol (MCP) servers that let AI agents operate real systems — Kubernetes, OpenShift, Kafka, ClickHouse, Debezium, OCI, Azure, Azure DevOps, Keycloak, Percona PostgreSQL, Grafana — plus RAG over your own documents, Mac control, and Microsoft 365 (Outlook, OneDrive, Teams). Read-only by default, allowlisted, audited. Plus the platforms and labs behind them." />
+  <meta name="keywords" content="MCP server, Model Context Protocol, Claude, AI agents, Kubernetes MCP, OpenShift MCP, CDP MCP, Electron MCP, Laya MCP, decision model, AI guardrails, Kafka MCP, ClickHouse MCP, Azure MCP, OCI MCP, Keycloak MCP, Debezium MCP, Percona PostgreSQL MCP, RAG MCP, agent memory, safe-by-default, DevOps AI, infrastructure automation, Ankit Verma, dockndevai" />
   <meta name="author" content="Ankit Verma (dockndevai)" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://dockndevai.github.io/" />
@@ -23,7 +23,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="dockndevai — MCP server suite" />
   <meta property="og:title" content="Ankit Verma (dockndevai) — safe-by-default MCP servers, platforms & labs" />
-  <meta property="og:description" content="Seventeen open-source MCP servers that let AI agents operate Kubernetes, Kafka, ClickHouse, Azure, OCI, Keycloak, Percona PostgreSQL, Grafana, your own documents, your Mac, and Microsoft 365 (Outlook, OneDrive & Teams) — read-only by default, allowlisted, audited." />
+  <meta property="og:description" content="Eighteen open-source MCP servers that let AI agents operate Kubernetes, Kafka, ClickHouse, Azure, OCI, Keycloak, Percona PostgreSQL, Grafana, your own documents, your Mac, and Microsoft 365 (Outlook, OneDrive & Teams) — read-only by default, allowlisted, audited." />
   <meta property="og:url" content="https://dockndevai.github.io/" />
   <meta property="og:image" content="https://dockndevai.github.io/og-image.png" />
   <meta property="og:image:width" content="1200" />
@@ -32,7 +32,7 @@
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Ankit Verma (dockndevai) — safe-by-default MCP servers" />
-  <meta name="twitter:description" content="Seventeen open-source MCP servers for AI agents — infra, cloud, databases, observability, RAG, Mac control, and Microsoft 365. Read-only by default. Plus the platforms and labs behind them." />
+  <meta name="twitter:description" content="Eighteen open-source MCP servers for AI agents — infra, cloud, databases, observability, RAG, Mac control, and Microsoft 365. Read-only by default. Plus the platforms and labs behind them." />
   <meta name="twitter:image" content="https://dockndevai.github.io/og-image.png" />
 
   <meta name="theme-color" content="#0b1220" media="(prefers-color-scheme: dark)" />
@@ -84,7 +84,8 @@
       { "@type": "SoftwareApplication", "position": 14, "name": "mcp-teams", "applicationCategory": "DeveloperApplication", "operatingSystem": "Node.js 22+", "offers": {"@type":"Offer","price":"0","priceCurrency":"USD"}, "url": "https://github.com/dockndevai/mcp-teams", "description": "MCP server for Microsoft Teams (Microsoft Graph) — read teams, channels, chats and messages, and post/reply/send, with browser sign-in and safe-by-default access modes." },
       { "@type": "SoftwareApplication", "position": 15, "name": "mcp-mac-control", "applicationCategory": "DeveloperApplication", "operatingSystem": "macOS", "offers": {"@type":"Offer","price":"0","priceCurrency":"USD"}, "url": "https://github.com/dockndevai/mcp-mac-control", "description": "MCP server for full macOS control — drive a Mac like a human: shell, AppleScript, files, processes, and human-like GUI (click, drag, scroll, type). Full control by default, with an opt-in safe mode." },
       { "@type": "SoftwareApplication", "position": 16, "name": "mcp-openshift", "applicationCategory": "DeveloperApplication", "operatingSystem": "Node.js 22+", "offers": {"@type":"Offer","price":"0","priceCurrency":"USD"}, "url": "https://github.com/dockndevai/mcp-openshift", "description": "MCP server for OpenShift and Kubernetes — projects, pods, logs, routes, deployments; scale, restart, apply and delete with read-only/read-write/admin modes. Connect with a web-console token or username/password against the cluster's local identity provider." },
-      { "@type": "SoftwareApplication", "position": 17, "name": "mcp-cdp", "applicationCategory": "DeveloperApplication", "operatingSystem": "Node.js 22+", "offers": {"@type":"Offer","price":"0","priceCurrency":"USD"}, "url": "https://github.com/dockndevai/mcp-cdp", "description": "MCP server that drives an Electron or Chrome/Chromium app over the Chrome DevTools Protocol (CDP) — DOM, console, network, click/type/navigate and gated JavaScript evaluation. A cross-OS alternative to computer-use for testing desktop and web apps; each agent attaches to its own remote-debugging port. Read-only by default with a target allowlist, protected targets and an eval gate." }
+      { "@type": "SoftwareApplication", "position": 17, "name": "mcp-cdp", "applicationCategory": "DeveloperApplication", "operatingSystem": "Node.js 22+", "offers": {"@type":"Offer","price":"0","priceCurrency":"USD"}, "url": "https://github.com/dockndevai/mcp-cdp", "description": "MCP server that drives an Electron or Chrome/Chromium app over the Chrome DevTools Protocol (CDP) — DOM, console, network, click/type/navigate and gated JavaScript evaluation. A cross-OS alternative to computer-use for testing desktop and web apps; each agent attaches to its own remote-debugging port. Read-only by default with a target allowlist, protected targets and an eval gate." },
+      { "@type": "SoftwareApplication", "position": 18, "name": "mcp-laya", "applicationCategory": "DeveloperApplication", "operatingSystem": "Python 3.10+", "offers": {"@type":"Offer","price":"0","priceCurrency":"USD"}, "url": "https://github.com/dockndevai/mcp-laya", "description": "MCP server for the Laya System-1 decision engine — fast, local, non-autoregressive typed decisions (classify, score, yes/no) over text, email, tickets or JSON in 100+ languages, with calibrated confidence and no text generation, so nothing to hallucinate. A 'thinking' tool that offloads routing/triage/gating judgment calls from the main model; runs on-device and offline by default." }
     ]
   }
   </script>
@@ -256,6 +257,7 @@
               <a role="menuitem" href="#p-mcp-percona-pg">mcp-percona-pg</a>
               <a role="menuitem" href="#p-mcp-grafana">mcp-grafana</a>
               <a role="menuitem" href="#p-ossian-mcp">ossian-mcp · RAG</a>
+              <a role="menuitem" href="#p-mcp-laya">mcp-laya · decisions</a>
             </div>
             <div class="dd-group">
               <h4>Desktop, apps &amp; Microsoft 365</h4>
@@ -265,7 +267,7 @@
               <a role="menuitem" href="#p-mcp-outlook">mcp-outlook · mail + OneDrive</a>
               <a role="menuitem" href="#p-mcp-teams">mcp-teams</a>
             </div>
-            <div class="dd-all"><a href="#products">See all 17 products ↓</a></div>
+            <div class="dd-all"><a href="#products">See all 18 products ↓</a></div>
           </div>
         </div>
         <a class="link desk" href="#approach">The approach</a>
@@ -294,7 +296,7 @@
       <div class="wrap">
         <span class="eyebrow">Safe by default · read-only until you say otherwise</span>
         <h1>MCP servers that let agents run <span class="g">real systems</span> — safely</h1>
-        <p class="lead">Seventeen open-source <strong>Model Context Protocol</strong> servers that let AI agents work with real systems — infrastructure, cloud, databases, Microsoft 365, your Mac, and your own documents — without being handed the keys. Read-only by default, least privilege, secrets never leak.</p>
+        <p class="lead">Eighteen open-source <strong>Model Context Protocol</strong> servers that let AI agents work with real systems — infrastructure, cloud, databases, Microsoft 365, your Mac, and your own documents — without being handed the keys. Read-only by default, least privilege, secrets never leak.</p>
         <div class="socials">
           <a class="social" href="https://github.com/dockndevai" rel="me"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.34-1.3-1.7-1.3-1.7-1.05-.72.08-.7.08-.7 1.17.08 1.78 1.2 1.78 1.2 1.04 1.78 2.73 1.27 3.4.97.1-.75.4-1.27.73-1.56-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.43-2.7 5.4-5.28 5.69.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>GitHub</a>
           <a class="social" href="https://www.linkedin.com/in/ankitvermacs/" rel="me"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM7.12 20.45H3.55V9h3.57v11.45ZM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0Z"/></svg>LinkedIn</a>
@@ -309,7 +311,7 @@
           <a class="btn ghost" href="#governance">The security model</a>
         </div>
         <div class="trust">
-          <span><b>17</b> MCP servers</span>
+          <span><b>18</b> MCP servers</span>
           <span>on <b>npm</b> + the Official <b>MCP Registry</b></span>
           <span><b>MIT</b> &amp; Apache-2.0</span>
           <span>Claude · Cursor · Codex · VS Code · Windsurf</span>
@@ -317,11 +319,11 @@
       </div>
     </section>
 
-    <!-- ===== Products (17 servers) ===== -->
+    <!-- ===== Products (18 servers) ===== -->
     <section id="products" style="background:var(--bg-soft)">
       <div class="wrap">
         <span class="eyebrow">Products</span>
-        <h2>Seventeen MCP servers, one install pattern</h2>
+        <h2>Eighteen MCP servers, one install pattern</h2>
         <p class="sub">Each runs over stdio and installs with a single <code>npx</code> command (requires <strong>Node 22+</strong>). All share one governance model; full per-client setup lives in every repo's <code>docs/CLIENTS.md</code>. Jump to any product from the <strong>Products</strong> menu above.</p>
         <div class="grid">
 
@@ -407,6 +409,12 @@
             <div class="install"><code>npx -y ossian-mcp</code><button class="copy" data-cmd="npx -y ossian-mcp">Copy</button></div>
             <div class="links"><a href="https://github.com/dockndevai/ossian-mcp">GitHub</a><a href="https://www.npmjs.com/package/ossian-mcp">npm</a></div>
           </article>
+          <article class="srv" id="p-mcp-laya">
+            <div class="top"><h3><a href="https://github.com/dockndevai/mcp-laya">mcp-laya</a></h3><span class="tag">AI · decisions</span></div>
+            <p>A local "thinking" tool: fast, non-autoregressive typed decisions — classify, score, yes/no — over text, email, tickets or JSON in 100+ languages, with calibrated confidence and no generation, so nothing to hallucinate. Offloads System-1 judgment calls from the main model; runs on-device, offline by default.</p>
+            <div class="install"><code>pipx install mcp-laya</code><button class="copy" data-cmd="pipx install mcp-laya">Copy</button></div>
+            <div class="links"><a href="https://github.com/dockndevai/mcp-laya">GitHub</a><a href="https://pypi.org/project/mcp-laya/">PyPI</a></div>
+          </article>
 
           <article class="srv" id="p-mcp-macos">
             <div class="top"><h3><a href="https://github.com/dockndevai/mcp-macos">mcp-macos</a></h3><span class="tag">System · macOS</span></div>
@@ -484,6 +492,7 @@
           <div class="c"><div class="ic">✍️</div><h3>Human-in-the-loop approval</h3><p>Destructive &amp; high-impact actions pause and ask the person to approve — live, via MCP elicitation — before they run. A model can't approve on your behalf.</p></div>
           <div class="c"><div class="ic">🧪</div><h3>Dry-run</h3><p>Validate and log write intent without executing it — preview exactly what an agent would change.</p></div>
           <div class="c"><div class="ic">🧾</div><h3>JSON audit log</h3><p>Every guarded operation emits a structured audit line to stderr. Secrets are redacted from all output.</p></div>
+          <div class="c"><div class="ic">🛡️</div><h3>Local AI risk guard <span style="font-weight:600;opacity:.7">(optional)</span></h3><p><a href="https://github.com/dockndevai/laya-guard">laya-guard</a> classifies high-risk commands (shell, JS eval, apply/delete/exec) <em>allow / confirm / block</em> with a local decision model before they run. Defence in depth that only ever tightens, never grants; fails closed; fully on-device. Wired into mac-control, cdp, openshift &amp; kubernetes.</p></div>
         </div>
         <figure style="margin:2.5rem auto 0;max-width:840px;text-align:center">
           <img src="https://raw.githubusercontent.com/dockndevai/mcp-grafana/main/docs/confirm-demo.gif" alt="Interactive confirmation — the agent asks to delete a dashboard; the server pauses and asks the human via MCP elicitation. Declining leaves it untouched; approving proceeds." style="width:100%;border-radius:14px;border:1px solid rgba(128,128,128,.28);box-shadow:0 10px 40px rgba(0,0,0,.28)" loading="lazy">
@@ -600,7 +609,7 @@ claude mcp add kubernetes \
         <h2>Where I share &amp; ship</h2>
         <p class="sub">The suite is built in the open and promoted across the developer community — code, packages, writing, and discussion.</p>
         <div class="chips">
-          <a class="chip" href="https://github.com/dockndevai" rel="me"><span class="em">🐙</span><span><span class="t">GitHub</span><br><span class="d">Source for all 17 servers + platforms</span></span></a>
+          <a class="chip" href="https://github.com/dockndevai" rel="me"><span class="em">🐙</span><span><span class="t">GitHub</span><br><span class="d">Source for all 18 servers + platforms</span></span></a>
           <a class="chip" href="https://www.linkedin.com/in/ankitvermacs/" rel="me"><span class="em">💼</span><span><span class="t">LinkedIn</span><br><span class="d">Professional profile</span></span></a>
           <a class="chip" href="https://x.com/dockndevai" rel="me"><span class="em">✖️</span><span><span class="t">X / Twitter</span><br><span class="d">Updates &amp; launches</span></span></a>
           <a class="chip" href="https://dev.to/dockndevai" rel="me"><span class="em">✍️</span><span><span class="t">Dev.to</span><br><span class="d">Long-form write-ups</span></span></a>
