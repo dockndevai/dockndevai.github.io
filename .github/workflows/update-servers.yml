@@ -1,0 +1,43 @@
+name: Update server list
+
+# Refresh servers.json + the generated regions of index.html from the owner's
+# public repo listing. Runs on a daily schedule and on demand. Never triggers on
+# push, to avoid a commit loop (this workflow commits index.html itself).
+on:
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-servers
+  cancel-in-progress: false
+
+jobs:
+  update-servers:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build server list
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/build-servers.mjs
+
+      - name: Commit if changed
+        run: |
+          git diff --quiet || (
+            git add -A &&
+            git -c user.name='github-actions[bot]' \
+                -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+                commit -m 'chore: refresh server list from repo data' &&
+            git push
+          )
