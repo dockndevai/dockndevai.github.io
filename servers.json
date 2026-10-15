@@ -1,23 +1,49 @@
 [
   {
-    "name": "mcp-clickhouse",
-    "description": "MCP server for ClickHouse — explore, query, and manage with SQL-classification-based security modes and access-control flags.",
-    "html_url": "https://github.com/dockndevai/mcp-clickhouse",
+    "name": "mcp-azure",
+    "description": "MCP server for Azure (Resource Manager) — inventory, tags, VM power, lifecycle — with governance controls (scoping, protected groups, location allowlist, delete gating, confirmation).",
+    "html_url": "https://github.com/dockndevai/mcp-azure",
     "homepage": "https://dockndevai.github.io/",
-    "stars": 3,
+    "stars": 1,
     "language": "TypeScript",
     "topics": [
-      "clickhouse",
+      "azure",
+      "cloud",
+      "governance",
       "llm",
       "mcp",
-      "model-context-protocol",
-      "olap",
-      "sql"
+      "model-context-protocol"
     ],
-    "npm": "@dockndevai/mcp-clickhouse",
-    "mcpName": "io.github.dockndevai/mcp-clickhouse",
-    "install": "npx -y @dockndevai/mcp-clickhouse",
-    "downloads": null
+    "npm": "@dockndevai/mcp-azure",
+    "mcpName": "io.github.dockndevai/mcp-azure",
+    "install": "npx -y @dockndevai/mcp-azure",
+    "downloads": {
+      "total": 2052,
+      "last30": 698
+    }
+  },
+  {
+    "name": "mcp-azure-devops",
+    "description": "MCP server for Azure DevOps — boards, repos, pipelines, projects — with governance controls (access modes, project scoping, protected projects, delete gating, typed confirmation).",
+    "html_url": "https://github.com/dockndevai/mcp-azure-devops",
+    "homepage": "https://dockndevai.github.io/",
+    "stars": 1,
+    "language": "TypeScript",
+    "topics": [
+      "azure-devops",
+      "devops",
+      "governance",
+      "llm",
+      "mcp",
+      "model-context-protocol"
+    ],
+    "npm": "@dockndevai/mcp-azure-devops",
+    "mcpName": "io.github.dockndevai/mcp-azure-devops",
+    "install": "npx -y @dockndevai/mcp-azure-devops",
+    "downloads": {
+      "total": 2010,
+      "last30": 708
+    }
   },
   {
     "name": "mcp-kubernetes",
@@ -37,7 +63,190 @@
     "npm": "@dockndevai/mcp-kubernetes",
     "mcpName": "io.github.dockndevai/mcp-kubernetes",
     "install": "npx -y @dockndevai/mcp-kubernetes",
-    "downloads": null
+    "downloads": {
+      "total": 1949,
+      "last30": 585
+    }
+  },
+  {
+    "name": "mcp-debezium",
+    "description": "MCP server for Debezium / Kafka Connect — monitor & manage CDC connectors with security modes and access-control flags.",
+    "html_url": "https://github.com/dockndevai/mcp-debezium",
+    "homepage": "https://dockndevai.github.io/",
+    "stars": 1,
+    "language": "TypeScript",
+    "topics": [
+      "cdc",
+      "debezium",
+      "kafka-connect",
+      "llm",
+      "mcp",
+      "model-context-protocol"
+    ],
+    "npm": "@dockndevai/mcp-debezium",
+    "mcpName": "io.github.dockndevai/mcp-debezium",
+    "install": "npx -y @dockndevai/mcp-debezium",
+    "downloads": {
+      "total": 1880,
+      "last30": 534
+    }
+  },
+  {
+    "name": "mcp-clickhouse",
+    "description": "MCP server for ClickHouse — explore, query, and manage with SQL-classification-based security modes and access-control flags.",
+    "html_url": "https://github.com/dockndevai/mcp-clickhouse",
+    "homepage": "https://dockndevai.github.io/",
+    "stars": 3,
+    "language": "TypeScript",
+    "topics": [
+      "clickhouse",
+      "llm",
+      "mcp",
+      "model-context-protocol",
+      "olap",
+      "sql"
+    ],
+    "npm": "@dockndevai/mcp-clickhouse",
+    "mcpName": "io.github.dockndevai/mcp-clickhouse",
+    "install": "npx -y @dockndevai/mcp-clickhouse",
+    "downloads": {
+      "total": 1855,
+      "last30": 611
+    }
+  },
+  {
+    "name": "mcp-kafka",
+    "description": "MCP server for Apache Kafka — monitor & manage clusters, topics, and consumer groups (with lag), with security modes and access-control flags.",
+    "html_url": "https://github.com/dockndevai/mcp-kafka",
+    "homepage": "https://dockndevai.github.io/",
+    "stars": 1,
+    "language": "TypeScript",
+    "topics": [
+      "apache-kafka",
+      "kafka",
+      "llm",
+      "mcp",
+      "model-context-protocol",
+      "observability"
+    ],
+    "npm": "@dockndevai/mcp-kafka",
+    "mcpName": "io.github.dockndevai/mcp-kafka",
+    "install": "npx -y @dockndevai/mcp-kafka",
+    "downloads": {
+      "total": 1839,
+      "last30": 594
+    }
+  },
+  {
+    "name": "mcp-keycloak",
+    "description": "MCP server for Keycloak — multi-realm admin with security modes (read-only/read-write/admin) and access-control flags.",
+    "html_url": "https://github.com/dockndevai/mcp-keycloak",
+    "homepage": "https://dockndevai.github.io/",
+    "stars": 1,
+    "language": "TypeScript",
+    "topics": [
+      "iam",
+      "keycloak",
+      "llm",
+      "mcp",
+      "model-context-protocol"
+    ],
+    "npm": "@dockndevai/mcp-keycloak",
+    "mcpName": "io.github.dockndevai/mcp-keycloak",
+    "install": "npx -y @dockndevai/mcp-keycloak",
+    "downloads": {
+      "total": 1822,
+      "last30": 538
+    }
+  },
+  {
+    "name": "mcp-percona-pg",
+    "description": "MCP server for the Percona Operator for PostgreSQL — manage PostgreSQL + PgBouncer, pooling, backups/PITR, and DR with safe-by-default security flags.",
+    "html_url": "https://github.com/dockndevai/mcp-percona-pg",
+    "homepage": "https://dockndevai.github.io/",
+    "stars": 1,
+    "language": "TypeScript",
+    "topics": [
+      "devops",
+      "kubernetes",
+      "mcp",
+      "model-context-protocol",
+      "percona",
+      "pgbouncer",
+      "postgresql"
+    ],
+    "npm": "@dockndevai/mcp-percona-pg",
+    "mcpName": "io.github.dockndevai/mcp-percona-pg",
+    "install": "npx -y @dockndevai/mcp-percona-pg",
+    "downloads": {
+      "total": 1705,
+      "last30": 553
+    }
+  },
+  {
+    "name": "mcp-oci",
+    "description": "MCP server for Oracle Cloud (OCI) — live resource discovery, dependency mapping, and Terraform generation, with security modes and access-control flags.",
+    "html_url": "https://github.com/dockndevai/mcp-oci",
+    "homepage": "https://dockndevai.github.io/",
+    "stars": 1,
+    "language": "TypeScript",
+    "topics": [
+      "iac",
+      "llm",
+      "mcp",
+      "model-context-protocol",
+      "oci",
+      "oracle-cloud",
+      "terraform"
+    ],
+    "npm": "@dockndevai/mcp-oci",
+    "mcpName": "io.github.dockndevai/mcp-oci",
+    "install": "npx -y @dockndevai/mcp-oci",
+    "downloads": {
+      "total": 1394,
+      "last30": 313
+    }
+  },
+  {
+    "name": "mcp-grafana",
+    "description": "MCP server for Grafana — search & edit dashboards, query datasources (Prometheus/Loki/SQL), inspect alerts, with safe-by-default access modes.",
+    "html_url": "https://github.com/dockndevai/mcp-grafana",
+    "homepage": "https://dockndevai.github.io/",
+    "stars": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "npm": "@dockndevai/mcp-grafana",
+    "mcpName": "io.github.dockndevai/mcp-grafana",
+    "install": "npx -y @dockndevai/mcp-grafana",
+    "downloads": {
+      "total": 1390,
+      "last30": 489
+    }
+  },
+  {
+    "name": "mcp-outlook",
+    "description": "Safe-by-default MCP server for Microsoft Outlook mail (Microsoft Graph) — read, search, draft, send, reply, forward and organize email, with browser sign-in.",
+    "html_url": "https://github.com/dockndevai/mcp-outlook",
+    "homepage": null,
+    "stars": 0,
+    "language": "TypeScript",
+    "topics": [
+      "ai",
+      "email",
+      "llm",
+      "mcp",
+      "microsoft-365",
+      "microsoft-graph",
+      "model-context-protocol",
+      "outlook"
+    ],
+    "npm": "@dockndevai/mcp-outlook",
+    "mcpName": "io.github.dockndevai/mcp-outlook",
+    "install": "npx -y @dockndevai/mcp-outlook",
+    "downloads": {
+      "total": 1146,
+      "last30": 1146
+    }
   },
   {
     "name": "ossian-mcp",
@@ -60,47 +269,75 @@
     "npm": "ossian-mcp",
     "mcpName": "io.github.dockndevai/ossian-mcp",
     "install": "npx -y ossian-mcp",
-    "downloads": null
+    "downloads": {
+      "total": 1057,
+      "last30": 230
+    }
   },
   {
-    "name": "mcp-azure",
-    "description": "MCP server for Azure (Resource Manager) — inventory, tags, VM power, lifecycle — with governance controls (scoping, protected groups, location allowlist, delete gating, confirmation).",
-    "html_url": "https://github.com/dockndevai/mcp-azure",
-    "homepage": "https://dockndevai.github.io/",
-    "stars": 1,
+    "name": "mcp-mac-control",
+    "description": "Full macOS control MCP server — drive a Mac like a human: shell, AppleScript, files, processes, and human-like GUI (click, drag, scroll, type). Full control by default; opt-in safe mode.",
+    "html_url": "https://github.com/dockndevai/mcp-mac-control",
+    "homepage": null,
+    "stars": 0,
     "language": "TypeScript",
     "topics": [
-      "azure",
-      "cloud",
-      "governance",
-      "llm",
+      "ai",
+      "applescript",
+      "automation",
+      "computer-use",
+      "gui-automation",
+      "macos",
       "mcp",
       "model-context-protocol"
     ],
-    "npm": "@dockndevai/mcp-azure",
-    "mcpName": "io.github.dockndevai/mcp-azure",
-    "install": "npx -y @dockndevai/mcp-azure",
-    "downloads": null
+    "npm": "@dockndevai/mcp-mac-control",
+    "mcpName": "io.github.dockndevai/mcp-mac-control",
+    "install": "npx -y @dockndevai/mcp-mac-control",
+    "downloads": {
+      "total": 774,
+      "last30": 774
+    }
   },
   {
-    "name": "mcp-azure-devops",
-    "description": "MCP server for Azure DevOps — boards, repos, pipelines, projects — with governance controls (access modes, project scoping, protected projects, delete gating, typed confirmation).",
-    "html_url": "https://github.com/dockndevai/mcp-azure-devops",
+    "name": "mcp-macos",
+    "description": "Safe-by-default MCP server to observe & operate a Mac — files, processes, apps, shell, AppleScript, GUI.",
+    "html_url": "https://github.com/dockndevai/mcp-macos",
     "homepage": "https://dockndevai.github.io/",
-    "stars": 1,
+    "stars": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "npm": "@dockndevai/mcp-macos",
+    "mcpName": "io.github.dockndevai/mcp-macos",
+    "install": "npx -y @dockndevai/mcp-macos",
+    "downloads": {
+      "total": 663,
+      "last30": 358
+    }
+  },
+  {
+    "name": "mcp-openshift",
+    "description": "Safe-by-default MCP server for OpenShift / Kubernetes — projects, pods, logs, deployments, routes and more, with username/password (local IdP) or token auth.",
+    "html_url": "https://github.com/dockndevai/mcp-openshift",
+    "homepage": null,
+    "stars": 0,
     "language": "TypeScript",
     "topics": [
-      "azure-devops",
+      "ai",
       "devops",
-      "governance",
-      "llm",
+      "k8s",
+      "kubernetes",
       "mcp",
-      "model-context-protocol"
+      "model-context-protocol",
+      "openshift"
     ],
-    "npm": "@dockndevai/mcp-azure-devops",
-    "mcpName": "io.github.dockndevai/mcp-azure-devops",
-    "install": "npx -y @dockndevai/mcp-azure-devops",
-    "downloads": null
+    "npm": "@dockndevai/mcp-openshift",
+    "mcpName": "io.github.dockndevai/mcp-openshift",
+    "install": "npx -y @dockndevai/mcp-openshift",
+    "downloads": {
+      "total": 539,
+      "last30": 539
+    }
   },
   {
     "name": "mcp-cdp",
@@ -121,108 +358,35 @@
     "npm": "@dockndevai/mcp-cdp",
     "mcpName": "io.github.dockndevai/mcp-cdp",
     "install": "npx -y @dockndevai/mcp-cdp",
-    "downloads": null
+    "downloads": {
+      "total": 484,
+      "last30": 484
+    }
   },
   {
-    "name": "mcp-debezium",
-    "description": "MCP server for Debezium / Kafka Connect — monitor & manage CDC connectors with security modes and access-control flags.",
-    "html_url": "https://github.com/dockndevai/mcp-debezium",
-    "homepage": "https://dockndevai.github.io/",
-    "stars": 1,
+    "name": "mcp-teams",
+    "description": "Safe-by-default MCP server for Microsoft Teams (Microsoft Graph) — read teams, channels, chats and messages, and post/reply/send, with browser sign-in.",
+    "html_url": "https://github.com/dockndevai/mcp-teams",
+    "homepage": null,
+    "stars": 0,
     "language": "TypeScript",
     "topics": [
-      "cdc",
-      "debezium",
-      "kafka-connect",
+      "ai",
       "llm",
       "mcp",
-      "model-context-protocol"
-    ],
-    "npm": "@dockndevai/mcp-debezium",
-    "mcpName": "io.github.dockndevai/mcp-debezium",
-    "install": "npx -y @dockndevai/mcp-debezium",
-    "downloads": null
-  },
-  {
-    "name": "mcp-kafka",
-    "description": "MCP server for Apache Kafka — monitor & manage clusters, topics, and consumer groups (with lag), with security modes and access-control flags.",
-    "html_url": "https://github.com/dockndevai/mcp-kafka",
-    "homepage": "https://dockndevai.github.io/",
-    "stars": 1,
-    "language": "TypeScript",
-    "topics": [
-      "apache-kafka",
-      "kafka",
-      "llm",
-      "mcp",
+      "microsoft-365",
+      "microsoft-graph",
+      "microsoft-teams",
       "model-context-protocol",
-      "observability"
+      "teams"
     ],
-    "npm": "@dockndevai/mcp-kafka",
-    "mcpName": "io.github.dockndevai/mcp-kafka",
-    "install": "npx -y @dockndevai/mcp-kafka",
-    "downloads": null
-  },
-  {
-    "name": "mcp-keycloak",
-    "description": "MCP server for Keycloak — multi-realm admin with security modes (read-only/read-write/admin) and access-control flags.",
-    "html_url": "https://github.com/dockndevai/mcp-keycloak",
-    "homepage": "https://dockndevai.github.io/",
-    "stars": 1,
-    "language": "TypeScript",
-    "topics": [
-      "iam",
-      "keycloak",
-      "llm",
-      "mcp",
-      "model-context-protocol"
-    ],
-    "npm": "@dockndevai/mcp-keycloak",
-    "mcpName": "io.github.dockndevai/mcp-keycloak",
-    "install": "npx -y @dockndevai/mcp-keycloak",
-    "downloads": null
-  },
-  {
-    "name": "mcp-oci",
-    "description": "MCP server for Oracle Cloud (OCI) — live resource discovery, dependency mapping, and Terraform generation, with security modes and access-control flags.",
-    "html_url": "https://github.com/dockndevai/mcp-oci",
-    "homepage": "https://dockndevai.github.io/",
-    "stars": 1,
-    "language": "TypeScript",
-    "topics": [
-      "iac",
-      "llm",
-      "mcp",
-      "model-context-protocol",
-      "oci",
-      "oracle-cloud",
-      "terraform"
-    ],
-    "npm": "@dockndevai/mcp-oci",
-    "mcpName": "io.github.dockndevai/mcp-oci",
-    "install": "npx -y @dockndevai/mcp-oci",
-    "downloads": null
-  },
-  {
-    "name": "mcp-percona-pg",
-    "description": "MCP server for the Percona Operator for PostgreSQL — manage PostgreSQL + PgBouncer, pooling, backups/PITR, and DR with safe-by-default security flags.",
-    "html_url": "https://github.com/dockndevai/mcp-percona-pg",
-    "homepage": "https://dockndevai.github.io/",
-    "stars": 1,
-    "language": "TypeScript",
-    "topics": [
-      "devops",
-      "kubernetes",
-      "mcp",
-      "model-context-protocol",
-      "percona",
-      "pgbouncer",
-      "postgresql"
-    ],
-    "npm": "@dockndevai/mcp-percona-pg",
-    "mcpName": "io.github.dockndevai/mcp-percona-pg",
-    "install": "npx -y @dockndevai/mcp-percona-pg",
-    "downloads": null
+    "npm": "@dockndevai/mcp-teams",
+    "mcpName": "io.github.dockndevai/mcp-teams",
+    "install": "npx -y @dockndevai/mcp-teams",
+    "downloads": {
+      "total": 481,
+      "last30": 481
+    }
   },
   {
     "name": "mcp-android",
@@ -246,16 +410,22 @@
     "downloads": null
   },
   {
-    "name": "mcp-grafana",
-    "description": "MCP server for Grafana — search & edit dashboards, query datasources (Prometheus/Loki/SQL), inspect alerts, with safe-by-default access modes.",
-    "html_url": "https://github.com/dockndevai/mcp-grafana",
-    "homepage": "https://dockndevai.github.io/",
+    "name": "mcp-core",
+    "description": "Shared safe-by-default governance library for the dockndevai MCP server suite: capability/mode gating, resource allowlist + protected resources + opt-in flags, human-in-the-loop elicitation, symlink-safe path canonicalization, audit, and a buildServer + create-mcp-server scaffold.",
+    "html_url": "https://github.com/dockndevai/mcp-core",
+    "homepage": null,
     "stars": 0,
     "language": "TypeScript",
-    "topics": [],
-    "npm": "@dockndevai/mcp-grafana",
-    "mcpName": "io.github.dockndevai/mcp-grafana",
-    "install": "npx -y @dockndevai/mcp-grafana",
+    "topics": [
+      "governance",
+      "library",
+      "mcp",
+      "model-context-protocol",
+      "typescript"
+    ],
+    "npm": "@dockndevai/mcp-core",
+    "mcpName": null,
+    "install": "npx -y @dockndevai/mcp-core",
     "downloads": null
   },
   {
@@ -300,106 +470,6 @@
     "npm": null,
     "mcpName": null,
     "install": null,
-    "downloads": null
-  },
-  {
-    "name": "mcp-mac-control",
-    "description": "Full macOS control MCP server — drive a Mac like a human: shell, AppleScript, files, processes, and human-like GUI (click, drag, scroll, type). Full control by default; opt-in safe mode.",
-    "html_url": "https://github.com/dockndevai/mcp-mac-control",
-    "homepage": null,
-    "stars": 0,
-    "language": "TypeScript",
-    "topics": [
-      "ai",
-      "applescript",
-      "automation",
-      "computer-use",
-      "gui-automation",
-      "macos",
-      "mcp",
-      "model-context-protocol"
-    ],
-    "npm": "@dockndevai/mcp-mac-control",
-    "mcpName": "io.github.dockndevai/mcp-mac-control",
-    "install": "npx -y @dockndevai/mcp-mac-control",
-    "downloads": null
-  },
-  {
-    "name": "mcp-macos",
-    "description": "Safe-by-default MCP server to observe & operate a Mac — files, processes, apps, shell, AppleScript, GUI.",
-    "html_url": "https://github.com/dockndevai/mcp-macos",
-    "homepage": "https://dockndevai.github.io/",
-    "stars": 0,
-    "language": "TypeScript",
-    "topics": [],
-    "npm": "@dockndevai/mcp-macos",
-    "mcpName": "io.github.dockndevai/mcp-macos",
-    "install": "npx -y @dockndevai/mcp-macos",
-    "downloads": null
-  },
-  {
-    "name": "mcp-openshift",
-    "description": "Safe-by-default MCP server for OpenShift / Kubernetes — projects, pods, logs, deployments, routes and more, with username/password (local IdP) or token auth.",
-    "html_url": "https://github.com/dockndevai/mcp-openshift",
-    "homepage": null,
-    "stars": 0,
-    "language": "TypeScript",
-    "topics": [
-      "ai",
-      "devops",
-      "k8s",
-      "kubernetes",
-      "mcp",
-      "model-context-protocol",
-      "openshift"
-    ],
-    "npm": "@dockndevai/mcp-openshift",
-    "mcpName": "io.github.dockndevai/mcp-openshift",
-    "install": "npx -y @dockndevai/mcp-openshift",
-    "downloads": null
-  },
-  {
-    "name": "mcp-outlook",
-    "description": "Safe-by-default MCP server for Microsoft Outlook mail (Microsoft Graph) — read, search, draft, send, reply, forward and organize email, with browser sign-in.",
-    "html_url": "https://github.com/dockndevai/mcp-outlook",
-    "homepage": null,
-    "stars": 0,
-    "language": "TypeScript",
-    "topics": [
-      "ai",
-      "email",
-      "llm",
-      "mcp",
-      "microsoft-365",
-      "microsoft-graph",
-      "model-context-protocol",
-      "outlook"
-    ],
-    "npm": "@dockndevai/mcp-outlook",
-    "mcpName": "io.github.dockndevai/mcp-outlook",
-    "install": "npx -y @dockndevai/mcp-outlook",
-    "downloads": null
-  },
-  {
-    "name": "mcp-teams",
-    "description": "Safe-by-default MCP server for Microsoft Teams (Microsoft Graph) — read teams, channels, chats and messages, and post/reply/send, with browser sign-in.",
-    "html_url": "https://github.com/dockndevai/mcp-teams",
-    "homepage": null,
-    "stars": 0,
-    "language": "TypeScript",
-    "topics": [
-      "ai",
-      "llm",
-      "mcp",
-      "microsoft-365",
-      "microsoft-graph",
-      "microsoft-teams",
-      "model-context-protocol",
-      "teams"
-    ],
-    "npm": "@dockndevai/mcp-teams",
-    "mcpName": "io.github.dockndevai/mcp-teams",
-    "install": "npx -y @dockndevai/mcp-teams",
     "downloads": null
   }
 ]
