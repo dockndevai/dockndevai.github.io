@@ -18,8 +18,8 @@
     "mcpName": "io.github.dockndevai/mcp-azure",
     "install": "npx -y @dockndevai/mcp-azure",
     "downloads": {
-      "total": 2052,
-      "last30": 698
+      "total": 2076,
+      "last30": 612
     }
   },
   {
@@ -41,8 +41,8 @@
     "mcpName": "io.github.dockndevai/mcp-azure-devops",
     "install": "npx -y @dockndevai/mcp-azure-devops",
     "downloads": {
-      "total": 2010,
-      "last30": 708
+      "total": 2014,
+      "last30": 472
     }
   },
   {
@@ -64,8 +64,8 @@
     "mcpName": "io.github.dockndevai/mcp-kubernetes",
     "install": "npx -y @dockndevai/mcp-kubernetes",
     "downloads": {
-      "total": 1949,
-      "last30": 585
+      "total": 1958,
+      "last30": 537
     }
   },
   {
@@ -87,8 +87,8 @@
     "mcpName": "io.github.dockndevai/mcp-debezium",
     "install": "npx -y @dockndevai/mcp-debezium",
     "downloads": {
-      "total": 1880,
-      "last30": 534
+      "total": 1885,
+      "last30": 481
     }
   },
   {
@@ -110,8 +110,8 @@
     "mcpName": "io.github.dockndevai/mcp-clickhouse",
     "install": "npx -y @dockndevai/mcp-clickhouse",
     "downloads": {
-      "total": 1855,
-      "last30": 611
+      "total": 1859,
+      "last30": 547
     }
   },
   {
@@ -133,8 +133,8 @@
     "mcpName": "io.github.dockndevai/mcp-kafka",
     "install": "npx -y @dockndevai/mcp-kafka",
     "downloads": {
-      "total": 1839,
-      "last30": 594
+      "total": 1842,
+      "last30": 514
     }
   },
   {
@@ -155,8 +155,8 @@
     "mcpName": "io.github.dockndevai/mcp-keycloak",
     "install": "npx -y @dockndevai/mcp-keycloak",
     "downloads": {
-      "total": 1822,
-      "last30": 538
+      "total": 1829,
+      "last30": 482
     }
   },
   {
@@ -179,8 +179,8 @@
     "mcpName": "io.github.dockndevai/mcp-percona-pg",
     "install": "npx -y @dockndevai/mcp-percona-pg",
     "downloads": {
-      "total": 1705,
-      "last30": 553
+      "total": 1707,
+      "last30": 484
     }
   },
   {
@@ -203,8 +203,8 @@
     "mcpName": "io.github.dockndevai/mcp-oci",
     "install": "npx -y @dockndevai/mcp-oci",
     "downloads": {
-      "total": 1394,
-      "last30": 313
+      "total": 1400,
+      "last30": 251
     }
   },
   {
@@ -219,8 +219,8 @@
     "mcpName": "io.github.dockndevai/mcp-grafana",
     "install": "npx -y @dockndevai/mcp-grafana",
     "downloads": {
-      "total": 1390,
-      "last30": 489
+      "total": 1397,
+      "last30": 439
     }
   },
   {
@@ -244,8 +244,8 @@
     "mcpName": "io.github.dockndevai/mcp-outlook",
     "install": "npx -y @dockndevai/mcp-outlook",
     "downloads": {
-      "total": 1146,
-      "last30": 1146
+      "total": 1156,
+      "last30": 1115
     }
   },
   {
@@ -270,8 +270,8 @@
     "mcpName": "io.github.dockndevai/ossian-mcp",
     "install": "npx -y ossian-mcp",
     "downloads": {
-      "total": 1057,
-      "last30": 230
+      "total": 1063,
+      "last30": 192
     }
   },
   {
@@ -295,8 +295,8 @@
     "mcpName": "io.github.dockndevai/mcp-mac-control",
     "install": "npx -y @dockndevai/mcp-mac-control",
     "downloads": {
-      "total": 774,
-      "last30": 774
+      "total": 776,
+      "last30": 776
     }
   },
   {
@@ -311,8 +311,8 @@
     "mcpName": "io.github.dockndevai/mcp-macos",
     "install": "npx -y @dockndevai/mcp-macos",
     "downloads": {
-      "total": 663,
-      "last30": 358
+      "total": 671,
+      "last30": 323
     }
   },
   {
@@ -335,8 +335,8 @@
     "mcpName": "io.github.dockndevai/mcp-openshift",
     "install": "npx -y @dockndevai/mcp-openshift",
     "downloads": {
-      "total": 539,
-      "last30": 539
+      "total": 543,
+      "last30": 543
     }
   },
   {
@@ -359,8 +359,8 @@
     "mcpName": "io.github.dockndevai/mcp-cdp",
     "install": "npx -y @dockndevai/mcp-cdp",
     "downloads": {
-      "total": 484,
-      "last30": 484
+      "total": 485,
+      "last30": 485
     }
   },
   {
@@ -384,49 +384,9 @@
     "mcpName": "io.github.dockndevai/mcp-teams",
     "install": "npx -y @dockndevai/mcp-teams",
     "downloads": {
-      "total": 481,
-      "last30": 481
+      "total": 483,
+      "last30": 446
     }
-  },
-  {
-    "name": "mcp-android",
-    "description": "MCP server to control an Android device over ADB — screenshots, taps, typing, app launch, alarms, notifications — safe-by-default with access modes and gated destructive ops.",
-    "html_url": "https://github.com/dockndevai/mcp-android",
-    "homepage": null,
-    "stars": 0,
-    "language": "TypeScript",
-    "topics": [
-      "adb",
-      "android",
-      "device-control",
-      "llm",
-      "mcp",
-      "mobile",
-      "model-context-protocol"
-    ],
-    "npm": "@dockndevai/mcp-android",
-    "mcpName": "io.github.dockndevai/mcp-android",
-    "install": "npx -y @dockndevai/mcp-android",
-    "downloads": null
-  },
-  {
-    "name": "mcp-core",
-    "description": "Shared safe-by-default governance library for the dockndevai MCP server suite: capability/mode gating, resource allowlist + protected resources + opt-in flags, human-in-the-loop elicitation, symlink-safe path canonicalization, audit, and a buildServer + create-mcp-server scaffold.",
-    "html_url": "https://github.com/dockndevai/mcp-core",
-    "homepage": null,
-    "stars": 0,
-    "language": "TypeScript",
-    "topics": [
-      "governance",
-      "library",
-      "mcp",
-      "model-context-protocol",
-      "typescript"
-    ],
-    "npm": "@dockndevai/mcp-core",
-    "mcpName": null,
-    "install": "npx -y @dockndevai/mcp-core",
-    "downloads": null
   },
   {
     "name": "mcp-ios",
@@ -448,6 +408,52 @@
     "npm": "@dockndevai/mcp-ios",
     "mcpName": "io.github.dockndevai/mcp-ios",
     "install": "npx -y @dockndevai/mcp-ios",
+    "downloads": {
+      "total": 5,
+      "last30": 5
+    }
+  },
+  {
+    "name": "mcp-android",
+    "description": "MCP server to control an Android device over ADB — screenshots, taps, typing, app launch, alarms, notifications — safe-by-default with access modes and gated destructive ops.",
+    "html_url": "https://github.com/dockndevai/mcp-android",
+    "homepage": null,
+    "stars": 0,
+    "language": "TypeScript",
+    "topics": [
+      "adb",
+      "android",
+      "device-control",
+      "llm",
+      "mcp",
+      "mobile",
+      "model-context-protocol"
+    ],
+    "npm": "@dockndevai/mcp-android",
+    "mcpName": "io.github.dockndevai/mcp-android",
+    "install": "npx -y @dockndevai/mcp-android",
+    "downloads": {
+      "total": 4,
+      "last30": 4
+    }
+  },
+  {
+    "name": "mcp-core",
+    "description": "Shared safe-by-default governance library for the dockndevai MCP server suite: capability/mode gating, resource allowlist + protected resources + opt-in flags, human-in-the-loop elicitation, symlink-safe path canonicalization, audit, and a buildServer + create-mcp-server scaffold.",
+    "html_url": "https://github.com/dockndevai/mcp-core",
+    "homepage": null,
+    "stars": 0,
+    "language": "TypeScript",
+    "topics": [
+      "governance",
+      "library",
+      "mcp",
+      "model-context-protocol",
+      "typescript"
+    ],
+    "npm": "@dockndevai/mcp-core",
+    "mcpName": null,
+    "install": "npx -y @dockndevai/mcp-core",
     "downloads": null
   },
   {
