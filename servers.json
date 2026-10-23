@@ -212,7 +212,7 @@
     "description": "MCP server for Grafana — search & edit dashboards, query datasources (Prometheus/Loki/SQL), inspect alerts, with safe-by-default access modes.",
     "html_url": "https://github.com/dockndevai/mcp-grafana",
     "homepage": "https://dockndevai.github.io/",
-    "stars": 0,
+    "stars": 1,
     "language": "TypeScript",
     "topics": [],
     "npm": "@dockndevai/mcp-grafana",
