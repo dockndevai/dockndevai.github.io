@@ -1,28 +1,5 @@
 [
   {
-    "name": "mcp-azure",
-    "description": "MCP server for Azure (Resource Manager) — inventory, tags, VM power, lifecycle — with governance controls (scoping, protected groups, location allowlist, delete gating, confirmation).",
-    "html_url": "https://github.com/dockndevai/mcp-azure",
-    "homepage": "https://dockndevai.github.io/",
-    "stars": 1,
-    "language": "TypeScript",
-    "topics": [
-      "azure",
-      "cloud",
-      "governance",
-      "llm",
-      "mcp",
-      "model-context-protocol"
-    ],
-    "npm": "@dockndevai/mcp-azure",
-    "mcpName": "io.github.dockndevai/mcp-azure",
-    "install": "npx -y @dockndevai/mcp-azure",
-    "downloads": {
-      "total": 2221,
-      "last30": 0
-    }
-  },
-  {
     "name": "mcp-azure-devops",
     "description": "MCP server for Azure DevOps — boards, repos, pipelines, projects — with governance controls (access modes, project scoping, protected projects, delete gating, typed confirmation).",
     "html_url": "https://github.com/dockndevai/mcp-azure-devops",
@@ -41,8 +18,31 @@
     "mcpName": "io.github.dockndevai/mcp-azure-devops",
     "install": "npx -y @dockndevai/mcp-azure-devops",
     "downloads": {
-      "total": 2081,
-      "last30": 0
+      "total": 2288,
+      "last30": 622
+    }
+  },
+  {
+    "name": "mcp-azure",
+    "description": "MCP server for Azure (Resource Manager) — inventory, tags, VM power, lifecycle — with governance controls (scoping, protected groups, location allowlist, delete gating, confirmation).",
+    "html_url": "https://github.com/dockndevai/mcp-azure",
+    "homepage": "https://dockndevai.github.io/",
+    "stars": 1,
+    "language": "TypeScript",
+    "topics": [
+      "azure",
+      "cloud",
+      "governance",
+      "llm",
+      "mcp",
+      "model-context-protocol"
+    ],
+    "npm": "@dockndevai/mcp-azure",
+    "mcpName": "io.github.dockndevai/mcp-azure",
+    "install": "npx -y @dockndevai/mcp-azure",
+    "downloads": {
+      "total": 2254,
+      "last30": 606
     }
   },
   {
@@ -64,54 +64,8 @@
     "mcpName": "io.github.dockndevai/mcp-kubernetes",
     "install": "npx -y @dockndevai/mcp-kubernetes",
     "downloads": {
-      "total": 2030,
-      "last30": 0
-    }
-  },
-  {
-    "name": "mcp-debezium",
-    "description": "MCP server for Debezium / Kafka Connect — monitor & manage CDC connectors with security modes and access-control flags.",
-    "html_url": "https://github.com/dockndevai/mcp-debezium",
-    "homepage": "https://dockndevai.github.io/",
-    "stars": 1,
-    "language": "TypeScript",
-    "topics": [
-      "cdc",
-      "debezium",
-      "kafka-connect",
-      "llm",
-      "mcp",
-      "model-context-protocol"
-    ],
-    "npm": "@dockndevai/mcp-debezium",
-    "mcpName": "io.github.dockndevai/mcp-debezium",
-    "install": "npx -y @dockndevai/mcp-debezium",
-    "downloads": {
-      "total": 1944,
-      "last30": 0
-    }
-  },
-  {
-    "name": "mcp-clickhouse",
-    "description": "MCP server for ClickHouse — explore, query, and manage with SQL-classification-based security modes and access-control flags.",
-    "html_url": "https://github.com/dockndevai/mcp-clickhouse",
-    "homepage": "https://dockndevai.github.io/",
-    "stars": 3,
-    "language": "TypeScript",
-    "topics": [
-      "clickhouse",
-      "llm",
-      "mcp",
-      "model-context-protocol",
-      "olap",
-      "sql"
-    ],
-    "npm": "@dockndevai/mcp-clickhouse",
-    "mcpName": "io.github.dockndevai/mcp-clickhouse",
-    "install": "npx -y @dockndevai/mcp-clickhouse",
-    "downloads": {
-      "total": 1927,
-      "last30": 0
+      "total": 2242,
+      "last30": 680
     }
   },
   {
@@ -133,8 +87,8 @@
     "mcpName": "io.github.dockndevai/mcp-kafka",
     "install": "npx -y @dockndevai/mcp-kafka",
     "downloads": {
-      "total": 1911,
-      "last30": 0
+      "total": 2128,
+      "last30": 659
     }
   },
   {
@@ -155,8 +109,8 @@
     "mcpName": "io.github.dockndevai/mcp-keycloak",
     "install": "npx -y @dockndevai/mcp-keycloak",
     "downloads": {
-      "total": 1883,
-      "last30": 0
+      "total": 2094,
+      "last30": 629
     }
   },
   {
@@ -179,8 +133,70 @@
     "mcpName": "io.github.dockndevai/mcp-percona-pg",
     "install": "npx -y @dockndevai/mcp-percona-pg",
     "downloads": {
-      "total": 1782,
-      "last30": 0
+      "total": 1990,
+      "last30": 648
+    }
+  },
+  {
+    "name": "mcp-debezium",
+    "description": "MCP server for Debezium / Kafka Connect — monitor & manage CDC connectors with security modes and access-control flags.",
+    "html_url": "https://github.com/dockndevai/mcp-debezium",
+    "homepage": "https://dockndevai.github.io/",
+    "stars": 1,
+    "language": "TypeScript",
+    "topics": [
+      "cdc",
+      "debezium",
+      "kafka-connect",
+      "llm",
+      "mcp",
+      "model-context-protocol"
+    ],
+    "npm": "@dockndevai/mcp-debezium",
+    "mcpName": "io.github.dockndevai/mcp-debezium",
+    "install": "npx -y @dockndevai/mcp-debezium",
+    "downloads": {
+      "total": 1948,
+      "last30": 417
+    }
+  },
+  {
+    "name": "mcp-clickhouse",
+    "description": "MCP server for ClickHouse — explore, query, and manage with SQL-classification-based security modes and access-control flags.",
+    "html_url": "https://github.com/dockndevai/mcp-clickhouse",
+    "homepage": "https://dockndevai.github.io/",
+    "stars": 3,
+    "language": "TypeScript",
+    "topics": [
+      "clickhouse",
+      "llm",
+      "mcp",
+      "model-context-protocol",
+      "olap",
+      "sql"
+    ],
+    "npm": "@dockndevai/mcp-clickhouse",
+    "mcpName": "io.github.dockndevai/mcp-clickhouse",
+    "install": "npx -y @dockndevai/mcp-clickhouse",
+    "downloads": {
+      "total": 1931,
+      "last30": 483
+    }
+  },
+  {
+    "name": "mcp-grafana",
+    "description": "MCP server for Grafana — search & edit dashboards, query datasources (Prometheus/Loki/SQL), inspect alerts, with safe-by-default access modes.",
+    "html_url": "https://github.com/dockndevai/mcp-grafana",
+    "homepage": "https://dockndevai.github.io/",
+    "stars": 1,
+    "language": "TypeScript",
+    "topics": [],
+    "npm": "@dockndevai/mcp-grafana",
+    "mcpName": "io.github.dockndevai/mcp-grafana",
+    "install": "npx -y @dockndevai/mcp-grafana",
+    "downloads": {
+      "total": 1663,
+      "last30": 604
     }
   },
   {
@@ -203,24 +219,8 @@
     "mcpName": "io.github.dockndevai/mcp-oci",
     "install": "npx -y @dockndevai/mcp-oci",
     "downloads": {
-      "total": 1468,
-      "last30": 0
-    }
-  },
-  {
-    "name": "mcp-grafana",
-    "description": "MCP server for Grafana — search & edit dashboards, query datasources (Prometheus/Loki/SQL), inspect alerts, with safe-by-default access modes.",
-    "html_url": "https://github.com/dockndevai/mcp-grafana",
-    "homepage": "https://dockndevai.github.io/",
-    "stars": 1,
-    "language": "TypeScript",
-    "topics": [],
-    "npm": "@dockndevai/mcp-grafana",
-    "mcpName": "io.github.dockndevai/mcp-grafana",
-    "install": "npx -y @dockndevai/mcp-grafana",
-    "downloads": {
-      "total": 1448,
-      "last30": 0
+      "total": 1473,
+      "last30": 212
     }
   },
   {
@@ -244,8 +244,8 @@
     "mcpName": "io.github.dockndevai/mcp-outlook",
     "install": "npx -y @dockndevai/mcp-outlook",
     "downloads": {
-      "total": 1253,
-      "last30": 0
+      "total": 1265,
+      "last30": 893
     }
   },
   {
@@ -270,8 +270,8 @@
     "mcpName": "io.github.dockndevai/ossian-mcp",
     "install": "npx -y ossian-mcp",
     "downloads": {
-      "total": 1091,
-      "last30": 0
+      "total": 1095,
+      "last30": 138
     }
   },
   {
@@ -295,8 +295,32 @@
     "mcpName": "io.github.dockndevai/mcp-mac-control",
     "install": "npx -y @dockndevai/mcp-mac-control",
     "downloads": {
-      "total": 803,
-      "last30": 0
+      "total": 805,
+      "last30": 194
+    }
+  },
+  {
+    "name": "mcp-cdp",
+    "description": null,
+    "html_url": "https://github.com/dockndevai/mcp-cdp",
+    "homepage": null,
+    "stars": 1,
+    "language": "TypeScript",
+    "topics": [
+      "ai",
+      "browser-automation",
+      "cdp",
+      "chrome-devtools-protocol",
+      "electron",
+      "mcp",
+      "model-context-protocol"
+    ],
+    "npm": "@dockndevai/mcp-cdp",
+    "mcpName": "io.github.dockndevai/mcp-cdp",
+    "install": "npx -y @dockndevai/mcp-cdp",
+    "downloads": {
+      "total": 746,
+      "last30": 601
     }
   },
   {
@@ -311,8 +335,8 @@
     "mcpName": "io.github.dockndevai/mcp-macos",
     "install": "npx -y @dockndevai/mcp-macos",
     "downloads": {
-      "total": 716,
-      "last30": 0
+      "total": 718,
+      "last30": 313
     }
   },
   {
@@ -335,8 +359,8 @@
     "mcpName": "io.github.dockndevai/mcp-openshift",
     "install": "npx -y @dockndevai/mcp-openshift",
     "downloads": {
-      "total": 571,
-      "last30": 0
+      "total": 575,
+      "last30": 352
     }
   },
   {
@@ -360,32 +384,8 @@
     "mcpName": "io.github.dockndevai/mcp-teams",
     "install": "npx -y @dockndevai/mcp-teams",
     "downloads": {
-      "total": 527,
-      "last30": 0
-    }
-  },
-  {
-    "name": "mcp-cdp",
-    "description": null,
-    "html_url": "https://github.com/dockndevai/mcp-cdp",
-    "homepage": null,
-    "stars": 1,
-    "language": "TypeScript",
-    "topics": [
-      "ai",
-      "browser-automation",
-      "cdp",
-      "chrome-devtools-protocol",
-      "electron",
-      "mcp",
-      "model-context-protocol"
-    ],
-    "npm": "@dockndevai/mcp-cdp",
-    "mcpName": "io.github.dockndevai/mcp-cdp",
-    "install": "npx -y @dockndevai/mcp-cdp",
-    "downloads": {
-      "total": 519,
-      "last30": 0
+      "total": 532,
+      "last30": 410
     }
   },
   {
@@ -409,8 +409,8 @@
     "mcpName": "io.github.dockndevai/mcp-ios",
     "install": "npx -y @dockndevai/mcp-ios",
     "downloads": {
-      "total": 50,
-      "last30": 0
+      "total": 54,
+      "last30": 54
     }
   },
   {
@@ -433,8 +433,8 @@
     "mcpName": "io.github.dockndevai/mcp-android",
     "install": "npx -y @dockndevai/mcp-android",
     "downloads": {
-      "total": 46,
-      "last30": 0
+      "total": 49,
+      "last30": 49
     }
   },
   {
