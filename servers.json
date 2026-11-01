@@ -27,7 +27,7 @@
     "description": "MCP server for Kubernetes — multi-cluster ops with security modes (read-only/read-write/admin) and access-control flags.",
     "html_url": "https://github.com/dockndevai/mcp-kubernetes",
     "homepage": "https://dockndevai.github.io/",
-    "stars": 2,
+    "stars": 3,
     "language": "TypeScript",
     "topics": [
       "devops",
