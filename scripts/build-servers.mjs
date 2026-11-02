@@ -28,7 +28,7 @@ const TOKEN = process.env.GITHUB_TOKEN || '';
 // Repos that pass the keep-filter but are NOT installable MCP servers.
 // (laya-guard carries the `mcp` topic but is a guardrail library wired *into*
 // the servers, not a server itself.)
-const HARD_EXCLUDE = new Set(['dockndevai.github.io', 'laya-guard']);
+const HARD_EXCLUDE = new Set(['dockndevai.github.io', 'laya-guard', 'mcp-core']);
 
 // Name patterns for non-server repos (labs, sites, taps, gateways).
 const EXCLUDE_PATTERNS = [/-lab$/, /-site$/, /^homebrew-/, /gateway/];
