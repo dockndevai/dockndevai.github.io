@@ -1,8 +1,9 @@
 name: Update server list
 
 # Refresh servers.json + the generated regions of index.html from the owner's
-# public repo listing. Runs on a daily schedule and on demand. Never triggers on
-# push, to avoid a commit loop (this workflow commits index.html itself).
+# public repo listing, and regenerate the downloads milestone card
+# (og-downloads.png) from the live totals. Runs daily and on demand. Never
+# triggers on push, to avoid a commit loop (this workflow commits itself).
 on:
   schedule:
     - cron: '17 6 * * *'
@@ -32,12 +33,31 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: node scripts/build-servers.mjs
 
+      - name: Install fonts
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends fonts-liberation
+
+      - name: Setup Chrome
+        id: chrome
+        uses: browser-actions/setup-chrome@v1
+
+      - name: Refresh downloads card
+        run: |
+          if node scripts/build-download-card.mjs; then
+            "${{ steps.chrome.outputs.chrome-path }}" \
+              --headless --disable-gpu --no-sandbox --hide-scrollbars \
+              --force-device-scale-factor=2 --window-size=1200,630 \
+              --screenshot="$PWD/og-downloads.png" "file://$PWD/og-downloads.html"
+          else
+            echo "Skipping card render (no download data)."
+          fi
+          rm -f og-downloads.html
+
       - name: Commit if changed
         run: |
           git diff --quiet || (
             git add -A &&
             git -c user.name='github-actions[bot]' \
                 -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
-                commit -m 'chore: refresh server list from repo data' &&
+                commit -m 'chore: refresh server list + downloads card from live data' &&
             git push
           )
