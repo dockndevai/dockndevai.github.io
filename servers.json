@@ -18,8 +18,8 @@
     "mcpName": "io.github.dockndevai/mcp-azure-devops",
     "install": "npx -y @dockndevai/mcp-azure-devops",
     "downloads": {
-      "total": 2490,
-      "last30": 565
+      "total": 2498,
+      "last30": 566
     }
   },
   {
@@ -41,8 +41,8 @@
     "mcpName": "io.github.dockndevai/mcp-kubernetes",
     "install": "npx -y @dockndevai/mcp-kubernetes",
     "downloads": {
-      "total": 2447,
-      "last30": 592
+      "total": 2457,
+      "last30": 590
     }
   },
   {
@@ -64,8 +64,8 @@
     "mcpName": "io.github.dockndevai/mcp-azure",
     "install": "npx -y @dockndevai/mcp-azure",
     "downloads": {
-      "total": 2352,
-      "last30": 406
+      "total": 2360,
+      "last30": 389
     }
   },
   {
@@ -87,8 +87,8 @@
     "mcpName": "io.github.dockndevai/mcp-kafka",
     "install": "npx -y @dockndevai/mcp-kafka",
     "downloads": {
-      "total": 2316,
-      "last30": 574
+      "total": 2325,
+      "last30": 572
     }
   },
   {
@@ -109,8 +109,8 @@
     "mcpName": "io.github.dockndevai/mcp-keycloak",
     "install": "npx -y @dockndevai/mcp-keycloak",
     "downloads": {
-      "total": 2283,
-      "last30": 543
+      "total": 2289,
+      "last30": 540
     }
   },
   {
@@ -133,31 +133,8 @@
     "mcpName": "io.github.dockndevai/mcp-percona-pg",
     "install": "npx -y @dockndevai/mcp-percona-pg",
     "downloads": {
-      "total": 2179,
-      "last30": 578
-    }
-  },
-  {
-    "name": "mcp-debezium",
-    "description": "MCP server for Debezium / Kafka Connect — monitor & manage CDC connectors with security modes and access-control flags.",
-    "html_url": "https://github.com/dockndevai/mcp-debezium",
-    "homepage": "https://dockndevai.github.io/",
-    "stars": 1,
-    "language": "TypeScript",
-    "topics": [
-      "cdc",
-      "debezium",
-      "kafka-connect",
-      "llm",
-      "mcp",
-      "model-context-protocol"
-    ],
-    "npm": "@dockndevai/mcp-debezium",
-    "mcpName": "io.github.dockndevai/mcp-debezium",
-    "install": "npx -y @dockndevai/mcp-debezium",
-    "downloads": {
-      "total": 2061,
-      "last30": 264
+      "total": 2190,
+      "last30": 579
     }
   },
   {
@@ -179,8 +156,31 @@
     "mcpName": "io.github.dockndevai/mcp-clickhouse",
     "install": "npx -y @dockndevai/mcp-clickhouse",
     "downloads": {
-      "total": 2058,
-      "last30": 325
+      "total": 2072,
+      "last30": 326
+    }
+  },
+  {
+    "name": "mcp-debezium",
+    "description": "MCP server for Debezium / Kafka Connect — monitor & manage CDC connectors with security modes and access-control flags.",
+    "html_url": "https://github.com/dockndevai/mcp-debezium",
+    "homepage": "https://dockndevai.github.io/",
+    "stars": 1,
+    "language": "TypeScript",
+    "topics": [
+      "cdc",
+      "debezium",
+      "kafka-connect",
+      "llm",
+      "mcp",
+      "model-context-protocol"
+    ],
+    "npm": "@dockndevai/mcp-debezium",
+    "mcpName": "io.github.dockndevai/mcp-debezium",
+    "install": "npx -y @dockndevai/mcp-debezium",
+    "downloads": {
+      "total": 2071,
+      "last30": 263
     }
   },
   {
@@ -195,8 +195,8 @@
     "mcpName": "io.github.dockndevai/mcp-grafana",
     "install": "npx -y @dockndevai/mcp-grafana",
     "downloads": {
-      "total": 1819,
-      "last30": 509
+      "total": 1831,
+      "last30": 515
     }
   },
   {
@@ -219,8 +219,8 @@
     "mcpName": "io.github.dockndevai/mcp-oci",
     "install": "npx -y @dockndevai/mcp-oci",
     "downloads": {
-      "total": 1592,
-      "last30": 262
+      "total": 1603,
+      "last30": 264
     }
   },
   {
@@ -244,8 +244,8 @@
     "mcpName": "io.github.dockndevai/mcp-outlook",
     "install": "npx -y @dockndevai/mcp-outlook",
     "downloads": {
-      "total": 1369,
-      "last30": 704
+      "total": 1380,
+      "last30": 706
     }
   },
   {
@@ -270,8 +270,8 @@
     "mcpName": "io.github.dockndevai/ossian-mcp",
     "install": "npx -y ossian-mcp",
     "downloads": {
-      "total": 1183,
-      "last30": 174
+      "total": 1194,
+      "last30": 176
     }
   },
   {
@@ -294,8 +294,8 @@
     "mcpName": "io.github.dockndevai/mcp-cdp",
     "install": "npx -y @dockndevai/mcp-cdp",
     "downloads": {
-      "total": 864,
-      "last30": 449
+      "total": 872,
+      "last30": 445
     }
   },
   {
@@ -319,8 +319,8 @@
     "mcpName": "io.github.dockndevai/mcp-mac-control",
     "install": "npx -y @dockndevai/mcp-mac-control",
     "downloads": {
-      "total": 864,
-      "last30": 154
+      "total": 872,
+      "last30": 152
     }
   },
   {
@@ -335,8 +335,8 @@
     "mcpName": "io.github.dockndevai/mcp-macos",
     "install": "npx -y @dockndevai/mcp-macos",
     "downloads": {
-      "total": 780,
-      "last30": 171
+      "total": 784,
+      "last30": 172
     }
   },
   {
@@ -359,8 +359,8 @@
     "mcpName": "io.github.dockndevai/mcp-openshift",
     "install": "npx -y @dockndevai/mcp-openshift",
     "downloads": {
-      "total": 624,
-      "last30": 148
+      "total": 631,
+      "last30": 146
     }
   },
   {
@@ -384,32 +384,8 @@
     "mcpName": "io.github.dockndevai/mcp-teams",
     "install": "npx -y @dockndevai/mcp-teams",
     "downloads": {
-      "total": 603,
-      "last30": 204
-    }
-  },
-  {
-    "name": "mcp-android",
-    "description": "MCP server to control an Android device over ADB — screenshots, taps, typing, app launch, alarms, notifications — safe-by-default with access modes and gated destructive ops.",
-    "html_url": "https://github.com/dockndevai/mcp-android",
-    "homepage": null,
-    "stars": 0,
-    "language": "TypeScript",
-    "topics": [
-      "adb",
-      "android",
-      "device-control",
-      "llm",
-      "mcp",
-      "mobile",
-      "model-context-protocol"
-    ],
-    "npm": "@dockndevai/mcp-android",
-    "mcpName": "io.github.dockndevai/mcp-android",
-    "install": "npx -y @dockndevai/mcp-android",
-    "downloads": {
-      "total": 107,
-      "last30": 107
+      "total": 610,
+      "last30": 203
     }
   },
   {
@@ -433,8 +409,32 @@
     "mcpName": "io.github.dockndevai/mcp-ios",
     "install": "npx -y @dockndevai/mcp-ios",
     "downloads": {
-      "total": 107,
-      "last30": 107
+      "total": 117,
+      "last30": 117
+    }
+  },
+  {
+    "name": "mcp-android",
+    "description": "MCP server to control an Android device over ADB — screenshots, taps, typing, app launch, alarms, notifications — safe-by-default with access modes and gated destructive ops.",
+    "html_url": "https://github.com/dockndevai/mcp-android",
+    "homepage": null,
+    "stars": 0,
+    "language": "TypeScript",
+    "topics": [
+      "adb",
+      "android",
+      "device-control",
+      "llm",
+      "mcp",
+      "mobile",
+      "model-context-protocol"
+    ],
+    "npm": "@dockndevai/mcp-android",
+    "mcpName": "io.github.dockndevai/mcp-android",
+    "install": "npx -y @dockndevai/mcp-android",
+    "downloads": {
+      "total": 116,
+      "last30": 116
     }
   },
   {
