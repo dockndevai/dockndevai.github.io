@@ -18,7 +18,7 @@
     "mcpName": "io.github.dockndevai/mcp-azure-devops",
     "install": "npx -y @dockndevai/mcp-azure-devops",
     "downloads": {
-      "total": 2506,
+      "total": 2512,
       "last30": 561
     }
   },
@@ -41,7 +41,7 @@
     "mcpName": "io.github.dockndevai/mcp-kubernetes",
     "install": "npx -y @dockndevai/mcp-kubernetes",
     "downloads": {
-      "total": 2464,
+      "total": 2472,
       "last30": 583
     }
   },
@@ -64,7 +64,7 @@
     "mcpName": "io.github.dockndevai/mcp-azure",
     "install": "npx -y @dockndevai/mcp-azure",
     "downloads": {
-      "total": 2364,
+      "total": 2368,
       "last30": 374
     }
   },
@@ -87,7 +87,7 @@
     "mcpName": "io.github.dockndevai/mcp-kafka",
     "install": "npx -y @dockndevai/mcp-kafka",
     "downloads": {
-      "total": 2337,
+      "total": 2350,
       "last30": 572
     }
   },
@@ -109,7 +109,7 @@
     "mcpName": "io.github.dockndevai/mcp-keycloak",
     "install": "npx -y @dockndevai/mcp-keycloak",
     "downloads": {
-      "total": 2296,
+      "total": 2305,
       "last30": 536
     }
   },
@@ -133,7 +133,7 @@
     "mcpName": "io.github.dockndevai/mcp-percona-pg",
     "install": "npx -y @dockndevai/mcp-percona-pg",
     "downloads": {
-      "total": 2196,
+      "total": 2203,
       "last30": 569
     }
   },
@@ -156,7 +156,7 @@
     "mcpName": "io.github.dockndevai/mcp-clickhouse",
     "install": "npx -y @dockndevai/mcp-clickhouse",
     "downloads": {
-      "total": 2093,
+      "total": 2101,
       "last30": 333
     }
   },
@@ -179,7 +179,7 @@
     "mcpName": "io.github.dockndevai/mcp-debezium",
     "install": "npx -y @dockndevai/mcp-debezium",
     "downloads": {
-      "total": 2079,
+      "total": 2088,
       "last30": 260
     }
   },
@@ -195,7 +195,7 @@
     "mcpName": "io.github.dockndevai/mcp-grafana",
     "install": "npx -y @dockndevai/mcp-grafana",
     "downloads": {
-      "total": 1836,
+      "total": 1912,
       "last30": 503
     }
   },
@@ -219,7 +219,7 @@
     "mcpName": "io.github.dockndevai/mcp-oci",
     "install": "npx -y @dockndevai/mcp-oci",
     "downloads": {
-      "total": 1611,
+      "total": 1622,
       "last30": 264
     }
   },
@@ -270,7 +270,7 @@
     "mcpName": "io.github.dockndevai/ossian-mcp",
     "install": "npx -y ossian-mcp",
     "downloads": {
-      "total": 1196,
+      "total": 1205,
       "last30": 170
     }
   },
@@ -436,6 +436,28 @@
       "total": 121,
       "last30": 121
     }
+  },
+  {
+    "name": "mcp-github-enterprise",
+    "description": "Safe-by-default MCP server for GitHub Enterprise — orgs, repos, teams, rulesets, security alerts & Actions, with a security-posture baseline and governance controls (read-only by default, org-scoped, audited, human-confirmed).",
+    "html_url": "https://github.com/dockndevai/mcp-github-enterprise",
+    "homepage": null,
+    "stars": 0,
+    "language": "TypeScript",
+    "topics": [
+      "ai",
+      "devsecops",
+      "github-actions",
+      "github-enterprise",
+      "governance",
+      "mcp",
+      "model-context-protocol",
+      "security"
+    ],
+    "npm": "@dockndevai/mcp-github-enterprise",
+    "mcpName": "io.github.dockndevai/mcp-github-enterprise",
+    "install": "npx -y @dockndevai/mcp-github-enterprise",
+    "downloads": null
   },
   {
     "name": "mcp-laya",
