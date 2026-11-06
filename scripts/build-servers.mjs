@@ -252,9 +252,9 @@ function renderJsonLd(servers) {
 // least one post is fetched, so a flaky feed never blanks the section.
 // -------------------------------------------------------------------------
 const DEVTO_USER = 'dockndevai';
-// Set to the Medium RSS feed once the handle is confirmed, e.g.
-// 'https://medium.com/feed/@yourhandle' (or a publication's '/feed'). Empty = skip.
-const MEDIUM_FEED = '';
+// Medium personal feed (handle: dockndev). Cross-posts that also appear on
+// Dev.to are de-duped by title, keeping the Medium original. Empty = skip.
+const MEDIUM_FEED = 'https://medium.com/feed/@dockndev';
 const MAX_POSTS = 6;
 
 function fmtDate(iso) {
