@@ -125,22 +125,47 @@ async function fetchNpmDownloads(pkg) {
   return { total: dAll, last30: d30 };
 }
 
+// PyPI metadata + downloads, for the Python servers (no package.json). Any
+// failure yields null so a Python repo degrades to a bare card, never a throw.
+async function fetchPypiInfo(name) {
+  const d = await getJson(`https://pypi.org/pypi/${encodeURIComponent(name)}/json`, { timeoutMs: 8000, retries: 1 });
+  if (!d || !d.info) return null;
+  return { name: d.info.name || name, summary: (d.info.summary || '').trim() || null };
+}
+
+async function fetchPypiDownloads(name) {
+  const d = await getJson(`https://pypistats.org/api/packages/${encodeURIComponent(name.toLowerCase())}/recent`, { timeoutMs: 8000, retries: 1 });
+  const m = d && d.data && typeof d.data.last_month === 'number' ? d.data.last_month : null;
+  return m === null ? null : { total: null, last30: m };
+}
+
 async function buildServer(repo) {
   const pkg = await fetchPackageJson(repo.full_name, repo.default_branch);
   const npmName = pkg && typeof pkg.name === 'string' ? pkg.name : null;
   const mcpName = pkg && typeof pkg.mcpName === 'string' ? pkg.mcpName : null;
-  const downloads = await fetchNpmDownloads(npmName);
+
+  // No npm package.json? It may be a Python server on PyPI (named after the repo).
+  let pypiName = null, pypiSummary = null;
+  if (!npmName) {
+    const py = await fetchPypiInfo(repo.name);
+    if (py) { pypiName = py.name; pypiSummary = py.summary; }
+  }
+
+  const downloads = npmName ? await fetchNpmDownloads(npmName)
+    : pypiName ? await fetchPypiDownloads(pypiName) : null;
+
   return {
     name: repo.name,
-    description: (repo.description || '').trim() || null,
+    description: (repo.description || '').trim() || pypiSummary || null,
     html_url: repo.html_url,
     homepage: repo.homepage && repo.homepage.trim() ? repo.homepage.trim() : null,
     stars: repo.stargazers_count || 0,
     language: repo.language || null,
     topics: (repo.topics || []).slice().sort(),
     npm: npmName,
+    pypi: pypiName,
     mcpName,
-    install: npmName ? `npx -y ${npmName}` : null,
+    install: npmName ? `npx -y ${npmName}` : pypiName ? `pipx install ${pypiName}` : null,
     downloads, // { total, last30 } | null
   };
 }
@@ -176,12 +201,13 @@ function renderCard(s) {
   const tag = s.language ? `<span class="tag k">${esc(s.language)}</span>` : '';
   const desc = s.description ? esc(s.description) : '';
 
+  const dlSrc = s.npm ? 'npm' : s.pypi ? 'PyPI' : 'package';
   const stats = [];
   stats.push(`<span class="stat" title="GitHub stars">&#9733; ${s.stars}</span>`);
   if (s.downloads && s.downloads.last30 != null) {
-    stats.push(`<span class="stat" title="npm downloads, last 30 days">&#8595; ${fmtCount(s.downloads.last30)}/mo</span>`);
+    stats.push(`<span class="stat" title="${dlSrc} downloads, last 30 days">&#8595; ${fmtCount(s.downloads.last30)}/mo</span>`);
   } else if (s.downloads && s.downloads.total != null) {
-    stats.push(`<span class="stat" title="npm downloads, all time">&#8595; ${fmtCount(s.downloads.total)}</span>`);
+    stats.push(`<span class="stat" title="${dlSrc} downloads, all time">&#8595; ${fmtCount(s.downloads.total)}</span>`);
   }
   const meta = `<div class="meta">${stats.join('')}</div>`;
 
@@ -191,6 +217,7 @@ function renderCard(s) {
 
   const links = [`<a href="${esc(s.html_url)}">GitHub</a>`];
   if (s.npm) links.push(`<a href="https://www.npmjs.com/package/${esc(s.npm)}">npm</a>`);
+  if (s.pypi) links.push(`<a href="https://pypi.org/project/${esc(s.pypi)}/">PyPI</a>`);
   // A "Website" link only when the homepage is a genuine external site — not the
   // repo itself, not github.com, and not this site's own origin (a circular link).
   if (s.homepage && s.homepage !== s.html_url &&

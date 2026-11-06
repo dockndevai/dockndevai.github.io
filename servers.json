@@ -15,6 +15,7 @@
       "model-context-protocol"
     ],
     "npm": "@dockndevai/mcp-azure-devops",
+    "pypi": null,
     "mcpName": "io.github.dockndevai/mcp-azure-devops",
     "install": "npx -y @dockndevai/mcp-azure-devops",
     "downloads": {
@@ -38,6 +39,7 @@
       "model-context-protocol"
     ],
     "npm": "@dockndevai/mcp-kubernetes",
+    "pypi": null,
     "mcpName": "io.github.dockndevai/mcp-kubernetes",
     "install": "npx -y @dockndevai/mcp-kubernetes",
     "downloads": {
@@ -61,6 +63,7 @@
       "model-context-protocol"
     ],
     "npm": "@dockndevai/mcp-azure",
+    "pypi": null,
     "mcpName": "io.github.dockndevai/mcp-azure",
     "install": "npx -y @dockndevai/mcp-azure",
     "downloads": {
@@ -84,6 +87,7 @@
       "observability"
     ],
     "npm": "@dockndevai/mcp-kafka",
+    "pypi": null,
     "mcpName": "io.github.dockndevai/mcp-kafka",
     "install": "npx -y @dockndevai/mcp-kafka",
     "downloads": {
@@ -106,6 +110,7 @@
       "model-context-protocol"
     ],
     "npm": "@dockndevai/mcp-keycloak",
+    "pypi": null,
     "mcpName": "io.github.dockndevai/mcp-keycloak",
     "install": "npx -y @dockndevai/mcp-keycloak",
     "downloads": {
@@ -130,6 +135,7 @@
       "postgresql"
     ],
     "npm": "@dockndevai/mcp-percona-pg",
+    "pypi": null,
     "mcpName": "io.github.dockndevai/mcp-percona-pg",
     "install": "npx -y @dockndevai/mcp-percona-pg",
     "downloads": {
@@ -153,6 +159,7 @@
       "sql"
     ],
     "npm": "@dockndevai/mcp-clickhouse",
+    "pypi": null,
     "mcpName": "io.github.dockndevai/mcp-clickhouse",
     "install": "npx -y @dockndevai/mcp-clickhouse",
     "downloads": {
@@ -176,6 +183,7 @@
       "model-context-protocol"
     ],
     "npm": "@dockndevai/mcp-debezium",
+    "pypi": null,
     "mcpName": "io.github.dockndevai/mcp-debezium",
     "install": "npx -y @dockndevai/mcp-debezium",
     "downloads": {
@@ -192,6 +200,7 @@
     "language": "TypeScript",
     "topics": [],
     "npm": "@dockndevai/mcp-grafana",
+    "pypi": null,
     "mcpName": "io.github.dockndevai/mcp-grafana",
     "install": "npx -y @dockndevai/mcp-grafana",
     "downloads": {
@@ -216,6 +225,7 @@
       "terraform"
     ],
     "npm": "@dockndevai/mcp-oci",
+    "pypi": null,
     "mcpName": "io.github.dockndevai/mcp-oci",
     "install": "npx -y @dockndevai/mcp-oci",
     "downloads": {
@@ -241,6 +251,7 @@
       "outlook"
     ],
     "npm": "@dockndevai/mcp-outlook",
+    "pypi": null,
     "mcpName": "io.github.dockndevai/mcp-outlook",
     "install": "npx -y @dockndevai/mcp-outlook",
     "downloads": {
@@ -267,6 +278,7 @@
       "retrieval"
     ],
     "npm": "ossian-mcp",
+    "pypi": null,
     "mcpName": "io.github.dockndevai/ossian-mcp",
     "install": "npx -y ossian-mcp",
     "downloads": {
@@ -276,7 +288,7 @@
   },
   {
     "name": "mcp-cdp",
-    "description": null,
+    "description": "Model Context Protocol server that drives an Electron/Chrome app over the DevTools Protocol (CDP) — DOM, console, network, click/type/navigate and gated JS eval — safe by default, cross-OS.",
     "html_url": "https://github.com/dockndevai/mcp-cdp",
     "homepage": null,
     "stars": 1,
@@ -291,6 +303,7 @@
       "model-context-protocol"
     ],
     "npm": "@dockndevai/mcp-cdp",
+    "pypi": null,
     "mcpName": "io.github.dockndevai/mcp-cdp",
     "install": "npx -y @dockndevai/mcp-cdp",
     "downloads": {
@@ -316,6 +329,7 @@
       "model-context-protocol"
     ],
     "npm": "@dockndevai/mcp-mac-control",
+    "pypi": null,
     "mcpName": "io.github.dockndevai/mcp-mac-control",
     "install": "npx -y @dockndevai/mcp-mac-control",
     "downloads": {
@@ -332,6 +346,7 @@
     "language": "TypeScript",
     "topics": [],
     "npm": "@dockndevai/mcp-macos",
+    "pypi": null,
     "mcpName": "io.github.dockndevai/mcp-macos",
     "install": "npx -y @dockndevai/mcp-macos",
     "downloads": {
@@ -356,6 +371,7 @@
       "openshift"
     ],
     "npm": "@dockndevai/mcp-openshift",
+    "pypi": null,
     "mcpName": "io.github.dockndevai/mcp-openshift",
     "install": "npx -y @dockndevai/mcp-openshift",
     "downloads": {
@@ -381,6 +397,7 @@
       "teams"
     ],
     "npm": "@dockndevai/mcp-teams",
+    "pypi": null,
     "mcpName": "io.github.dockndevai/mcp-teams",
     "install": "npx -y @dockndevai/mcp-teams",
     "downloads": {
@@ -405,6 +422,7 @@
       "model-context-protocol"
     ],
     "npm": "@dockndevai/mcp-android",
+    "pypi": null,
     "mcpName": "io.github.dockndevai/mcp-android",
     "install": "npx -y @dockndevai/mcp-android",
     "downloads": {
@@ -430,6 +448,7 @@
       "webdriveragent"
     ],
     "npm": "@dockndevai/mcp-ios",
+    "pypi": null,
     "mcpName": "io.github.dockndevai/mcp-ios",
     "install": "npx -y @dockndevai/mcp-ios",
     "downloads": {
@@ -455,13 +474,14 @@
       "security"
     ],
     "npm": "@dockndevai/mcp-github-enterprise",
+    "pypi": null,
     "mcpName": "io.github.dockndevai/mcp-github-enterprise",
     "install": "npx -y @dockndevai/mcp-github-enterprise",
     "downloads": null
   },
   {
     "name": "mcp-laya",
-    "description": null,
+    "description": "Safe-by-default MCP server for Laya — fast, local, non-autoregressive typed decisions (classify / score / yes-no) for AI agents, in 100+ languages.",
     "html_url": "https://github.com/dockndevai/mcp-laya",
     "homepage": null,
     "stars": 0,
@@ -477,8 +497,12 @@
       "triage"
     ],
     "npm": null,
+    "pypi": "mcp-laya",
     "mcpName": null,
-    "install": null,
-    "downloads": null
+    "install": "pipx install mcp-laya",
+    "downloads": {
+      "total": null,
+      "last30": 348
+    }
   }
 ]
