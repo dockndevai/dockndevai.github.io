@@ -19,8 +19,8 @@
     "mcpName": "io.github.dockndevai/mcp-azure-devops",
     "install": "npx -y @dockndevai/mcp-azure-devops",
     "downloads": {
-      "total": 2530,
-      "last30": 579
+      "total": 2562,
+      "last30": 604
     }
   },
   {
@@ -43,8 +43,8 @@
     "mcpName": "io.github.dockndevai/mcp-kubernetes",
     "install": "npx -y @dockndevai/mcp-kubernetes",
     "downloads": {
-      "total": 2493,
-      "last30": 604
+      "total": 2517,
+      "last30": 619
     }
   },
   {
@@ -67,8 +67,8 @@
     "mcpName": "io.github.dockndevai/mcp-azure",
     "install": "npx -y @dockndevai/mcp-azure",
     "downloads": {
-      "total": 2376,
-      "last30": 382
+      "total": 2387,
+      "last30": 380
     }
   },
   {
@@ -91,7 +91,7 @@
     "mcpName": "io.github.dockndevai/mcp-kafka",
     "install": "npx -y @dockndevai/mcp-kafka",
     "downloads": {
-      "total": 2371,
+      "total": 2383,
       "last30": 593
     }
   },
@@ -114,8 +114,8 @@
     "mcpName": "io.github.dockndevai/mcp-keycloak",
     "install": "npx -y @dockndevai/mcp-keycloak",
     "downloads": {
-      "total": 2325,
-      "last30": 556
+      "total": 2340,
+      "last30": 560
     }
   },
   {
@@ -139,8 +139,8 @@
     "mcpName": "io.github.dockndevai/mcp-percona-pg",
     "install": "npx -y @dockndevai/mcp-percona-pg",
     "downloads": {
-      "total": 2226,
-      "last30": 592
+      "total": 2243,
+      "last30": 591
     }
   },
   {
@@ -163,8 +163,8 @@
     "mcpName": "io.github.dockndevai/mcp-clickhouse",
     "install": "npx -y @dockndevai/mcp-clickhouse",
     "downloads": {
-      "total": 2115,
-      "last30": 347
+      "total": 2144,
+      "last30": 365
     }
   },
   {
@@ -187,8 +187,8 @@
     "mcpName": "io.github.dockndevai/mcp-debezium",
     "install": "npx -y @dockndevai/mcp-debezium",
     "downloads": {
-      "total": 2102,
-      "last30": 274
+      "total": 2124,
+      "last30": 287
     }
   },
   {
@@ -204,8 +204,8 @@
     "mcpName": "io.github.dockndevai/mcp-grafana",
     "install": "npx -y @dockndevai/mcp-grafana",
     "downloads": {
-      "total": 1929,
-      "last30": 520
+      "total": 1948,
+      "last30": 531
     }
   },
   {
@@ -229,8 +229,8 @@
     "mcpName": "io.github.dockndevai/mcp-oci",
     "install": "npx -y @dockndevai/mcp-oci",
     "downloads": {
-      "total": 1634,
-      "last30": 276
+      "total": 1656,
+      "last30": 294
     }
   },
   {
@@ -255,8 +255,8 @@
     "mcpName": "io.github.dockndevai/mcp-outlook",
     "install": "npx -y @dockndevai/mcp-outlook",
     "downloads": {
-      "total": 1397,
-      "last30": 711
+      "total": 1449,
+      "last30": 753
     }
   },
   {
@@ -282,8 +282,8 @@
     "mcpName": "io.github.dockndevai/ossian-mcp",
     "install": "npx -y ossian-mcp",
     "downloads": {
-      "total": 1213,
-      "last30": 178
+      "total": 1232,
+      "last30": 189
     }
   },
   {
@@ -307,8 +307,8 @@
     "mcpName": "io.github.dockndevai/mcp-cdp",
     "install": "npx -y @dockndevai/mcp-cdp",
     "downloads": {
-      "total": 889,
-      "last30": 456
+      "total": 906,
+      "last30": 462
     }
   },
   {
@@ -333,8 +333,8 @@
     "mcpName": "io.github.dockndevai/mcp-mac-control",
     "install": "npx -y @dockndevai/mcp-mac-control",
     "downloads": {
-      "total": 881,
-      "last30": 151
+      "total": 886,
+      "last30": 145
     }
   },
   {
@@ -350,7 +350,7 @@
     "mcpName": "io.github.dockndevai/mcp-macos",
     "install": "npx -y @dockndevai/mcp-macos",
     "downloads": {
-      "total": 795,
+      "total": 802,
       "last30": 175
     }
   },
@@ -375,7 +375,7 @@
     "mcpName": "io.github.dockndevai/mcp-openshift",
     "install": "npx -y @dockndevai/mcp-openshift",
     "downloads": {
-      "total": 641,
+      "total": 652,
       "last30": 148
     }
   },
@@ -401,59 +401,8 @@
     "mcpName": "io.github.dockndevai/mcp-teams",
     "install": "npx -y @dockndevai/mcp-teams",
     "downloads": {
-      "total": 624,
-      "last30": 206
-    }
-  },
-  {
-    "name": "mcp-android",
-    "description": "MCP server to control an Android device over ADB — screenshots, taps, typing, app launch, alarms, notifications — safe-by-default with access modes and gated destructive ops.",
-    "html_url": "https://github.com/dockndevai/mcp-android",
-    "homepage": null,
-    "stars": 0,
-    "language": "TypeScript",
-    "topics": [
-      "adb",
-      "android",
-      "device-control",
-      "llm",
-      "mcp",
-      "mobile",
-      "model-context-protocol"
-    ],
-    "npm": "@dockndevai/mcp-android",
-    "pypi": null,
-    "mcpName": "io.github.dockndevai/mcp-android",
-    "install": "npx -y @dockndevai/mcp-android",
-    "downloads": {
-      "total": 129,
-      "last30": 129
-    }
-  },
-  {
-    "name": "mcp-ios",
-    "description": "MCP server to drive a physical iPhone/iPad over Appium + WebDriverAgent (XCUITest) — safe-by-default with access modes and gated destructive ops.",
-    "html_url": "https://github.com/dockndevai/mcp-ios",
-    "homepage": null,
-    "stars": 0,
-    "language": "TypeScript",
-    "topics": [
-      "appium",
-      "device-control",
-      "ios",
-      "llm",
-      "mcp",
-      "mobile",
-      "model-context-protocol",
-      "webdriveragent"
-    ],
-    "npm": "@dockndevai/mcp-ios",
-    "pypi": null,
-    "mcpName": "io.github.dockndevai/mcp-ios",
-    "install": "npx -y @dockndevai/mcp-ios",
-    "downloads": {
-      "total": 128,
-      "last30": 128
+      "total": 638,
+      "last30": 207
     }
   },
   {
@@ -477,7 +426,61 @@
     "pypi": null,
     "mcpName": "io.github.dockndevai/mcp-github-enterprise",
     "install": "npx -y @dockndevai/mcp-github-enterprise",
-    "downloads": null
+    "downloads": {
+      "total": 457,
+      "last30": 457
+    }
+  },
+  {
+    "name": "mcp-android",
+    "description": "MCP server to control an Android device over ADB — screenshots, taps, typing, app launch, alarms, notifications — safe-by-default with access modes and gated destructive ops.",
+    "html_url": "https://github.com/dockndevai/mcp-android",
+    "homepage": null,
+    "stars": 0,
+    "language": "TypeScript",
+    "topics": [
+      "adb",
+      "android",
+      "device-control",
+      "llm",
+      "mcp",
+      "mobile",
+      "model-context-protocol"
+    ],
+    "npm": "@dockndevai/mcp-android",
+    "pypi": null,
+    "mcpName": "io.github.dockndevai/mcp-android",
+    "install": "npx -y @dockndevai/mcp-android",
+    "downloads": {
+      "total": 134,
+      "last30": 134
+    }
+  },
+  {
+    "name": "mcp-ios",
+    "description": "MCP server to drive a physical iPhone/iPad over Appium + WebDriverAgent (XCUITest) — safe-by-default with access modes and gated destructive ops.",
+    "html_url": "https://github.com/dockndevai/mcp-ios",
+    "homepage": null,
+    "stars": 1,
+    "language": "TypeScript",
+    "topics": [
+      "appium",
+      "device-control",
+      "ios",
+      "llm",
+      "mcp",
+      "mobile",
+      "model-context-protocol",
+      "webdriveragent"
+    ],
+    "npm": "@dockndevai/mcp-ios",
+    "pypi": null,
+    "mcpName": "io.github.dockndevai/mcp-ios",
+    "install": "npx -y @dockndevai/mcp-ios",
+    "downloads": {
+      "total": 132,
+      "last30": 132
+    }
   },
   {
     "name": "mcp-laya",
