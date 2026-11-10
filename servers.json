@@ -19,8 +19,8 @@
     "mcpName": "io.github.dockndevai/mcp-azure-devops",
     "install": "npx -y @dockndevai/mcp-azure-devops",
     "downloads": {
-      "total": 2593,
-      "last30": 608
+      "total": 2597,
+      "last30": 612
     }
   },
   {
@@ -43,32 +43,8 @@
     "mcpName": "io.github.dockndevai/mcp-kubernetes",
     "install": "npx -y @dockndevai/mcp-kubernetes",
     "downloads": {
-      "total": 2546,
-      "last30": 628
-    }
-  },
-  {
-    "name": "mcp-azure",
-    "description": "MCP server for Azure (Resource Manager) — inventory, tags, VM power, lifecycle — with governance controls (scoping, protected groups, location allowlist, delete gating, confirmation).",
-    "html_url": "https://github.com/dockndevai/mcp-azure",
-    "homepage": "https://dockndevai.github.io/",
-    "stars": 1,
-    "language": "TypeScript",
-    "topics": [
-      "azure",
-      "cloud",
-      "governance",
-      "llm",
-      "mcp",
-      "model-context-protocol"
-    ],
-    "npm": "@dockndevai/mcp-azure",
-    "pypi": null,
-    "mcpName": "io.github.dockndevai/mcp-azure",
-    "install": "npx -y @dockndevai/mcp-azure",
-    "downloads": {
-      "total": 2410,
-      "last30": 386
+      "total": 2559,
+      "last30": 641
     }
   },
   {
@@ -91,8 +67,32 @@
     "mcpName": "io.github.dockndevai/mcp-kafka",
     "install": "npx -y @dockndevai/mcp-kafka",
     "downloads": {
-      "total": 2407,
-      "last30": 594
+      "total": 2418,
+      "last30": 605
+    }
+  },
+  {
+    "name": "mcp-azure",
+    "description": "MCP server for Azure (Resource Manager) — inventory, tags, VM power, lifecycle — with governance controls (scoping, protected groups, location allowlist, delete gating, confirmation).",
+    "html_url": "https://github.com/dockndevai/mcp-azure",
+    "homepage": "https://dockndevai.github.io/",
+    "stars": 1,
+    "language": "TypeScript",
+    "topics": [
+      "azure",
+      "cloud",
+      "governance",
+      "llm",
+      "mcp",
+      "model-context-protocol"
+    ],
+    "npm": "@dockndevai/mcp-azure",
+    "pypi": null,
+    "mcpName": "io.github.dockndevai/mcp-azure",
+    "install": "npx -y @dockndevai/mcp-azure",
+    "downloads": {
+      "total": 2416,
+      "last30": 392
     }
   },
   {
@@ -114,8 +114,8 @@
     "mcpName": "io.github.dockndevai/mcp-keycloak",
     "install": "npx -y @dockndevai/mcp-keycloak",
     "downloads": {
-      "total": 2358,
-      "last30": 565
+      "total": 2362,
+      "last30": 569
     }
   },
   {
@@ -139,8 +139,8 @@
     "mcpName": "io.github.dockndevai/mcp-percona-pg",
     "install": "npx -y @dockndevai/mcp-percona-pg",
     "downloads": {
-      "total": 2272,
-      "last30": 602
+      "total": 2278,
+      "last30": 608
     }
   },
   {
@@ -163,8 +163,8 @@
     "mcpName": "io.github.dockndevai/mcp-clickhouse",
     "install": "npx -y @dockndevai/mcp-clickhouse",
     "downloads": {
-      "total": 2169,
-      "last30": 346
+      "total": 2191,
+      "last30": 368
     }
   },
   {
@@ -187,8 +187,8 @@
     "mcpName": "io.github.dockndevai/mcp-debezium",
     "install": "npx -y @dockndevai/mcp-debezium",
     "downloads": {
-      "total": 2139,
-      "last30": 284
+      "total": 2144,
+      "last30": 289
     }
   },
   {
@@ -204,8 +204,8 @@
     "mcpName": "io.github.dockndevai/mcp-grafana",
     "install": "npx -y @dockndevai/mcp-grafana",
     "downloads": {
-      "total": 1967,
-      "last30": 538
+      "total": 1978,
+      "last30": 549
     }
   },
   {
@@ -229,8 +229,8 @@
     "mcpName": "io.github.dockndevai/mcp-oci",
     "install": "npx -y @dockndevai/mcp-oci",
     "downloads": {
-      "total": 1675,
-      "last30": 298
+      "total": 1678,
+      "last30": 301
     }
   },
   {
@@ -255,8 +255,8 @@
     "mcpName": "io.github.dockndevai/mcp-outlook",
     "install": "npx -y @dockndevai/mcp-outlook",
     "downloads": {
-      "total": 1469,
-      "last30": 751
+      "total": 1477,
+      "last30": 759
     }
   },
   {
@@ -282,8 +282,8 @@
     "mcpName": "io.github.dockndevai/ossian-mcp",
     "install": "npx -y ossian-mcp",
     "downloads": {
-      "total": 1247,
-      "last30": 196
+      "total": 1255,
+      "last30": 204
     }
   },
   {
@@ -307,8 +307,8 @@
     "mcpName": "io.github.dockndevai/mcp-cdp",
     "install": "npx -y @dockndevai/mcp-cdp",
     "downloads": {
-      "total": 932,
-      "last30": 472
+      "total": 936,
+      "last30": 476
     }
   },
   {
@@ -333,8 +333,8 @@
     "mcpName": "io.github.dockndevai/mcp-mac-control",
     "install": "npx -y @dockndevai/mcp-mac-control",
     "downloads": {
-      "total": 902,
-      "last30": 152
+      "total": 905,
+      "last30": 155
     }
   },
   {
@@ -350,8 +350,8 @@
     "mcpName": "io.github.dockndevai/mcp-macos",
     "install": "npx -y @dockndevai/mcp-macos",
     "downloads": {
-      "total": 816,
-      "last30": 174
+      "total": 825,
+      "last30": 183
     }
   },
   {
@@ -375,8 +375,8 @@
     "mcpName": "io.github.dockndevai/mcp-openshift",
     "install": "npx -y @dockndevai/mcp-openshift",
     "downloads": {
-      "total": 668,
-      "last30": 152
+      "total": 676,
+      "last30": 160
     }
   },
   {
@@ -401,8 +401,8 @@
     "mcpName": "io.github.dockndevai/mcp-teams",
     "install": "npx -y @dockndevai/mcp-teams",
     "downloads": {
-      "total": 657,
-      "last30": 203
+      "total": 662,
+      "last30": 208
     }
   },
   {
@@ -452,8 +452,8 @@
     "mcpName": "io.github.dockndevai/mcp-android",
     "install": "npx -y @dockndevai/mcp-android",
     "downloads": {
-      "total": 149,
-      "last30": 149
+      "total": 157,
+      "last30": 157
     }
   },
   {
@@ -478,8 +478,8 @@
     "mcpName": "io.github.dockndevai/mcp-ios",
     "install": "npx -y @dockndevai/mcp-ios",
     "downloads": {
-      "total": 145,
-      "last30": 145
+      "total": 156,
+      "last30": 156
     }
   },
   {
