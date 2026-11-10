@@ -34,10 +34,10 @@ html,body{width:1200px;height:630px}
 body{background:#0b1220;color:#e8edf7;font-family:-apple-system,"Liberation Sans","DejaVu Sans",Arial,sans-serif;padding:64px 72px;position:relative;overflow:hidden}
 .top{display:flex;align-items:center;gap:12px;font-size:24px;font-weight:600;color:#9fb4d8;letter-spacing:.2px}
 .dot{width:30px;height:30px;border-radius:8px;background:linear-gradient(135deg,#3b82f6,#22d3ee)}
-.hero{font-size:150px;font-weight:800;line-height:1;letter-spacing:-4px;margin-top:40px;background:linear-gradient(90deg,#60a5fa,#34d399);-webkit-background-clip:text;background-clip:text;color:transparent}
-.sub{font-size:31px;font-weight:600;margin-top:14px;color:#e8edf7;max-width:640px;line-height:1.25}
+.hero{font-size:150px;font-weight:800;line-height:1;letter-spacing:-4px;margin-top:40px;width:max-content;max-width:600px;background:linear-gradient(90deg,#60a5fa,#34d399);-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{font-size:31px;font-weight:600;margin-top:14px;color:#e8edf7;max-width:600px;line-height:1.25}
 .sub b{color:#34d399}
-.tags{margin-top:26px;display:flex;gap:10px;flex-wrap:wrap;max-width:640px}
+.tags{margin-top:26px;display:flex;gap:10px;flex-wrap:wrap;max-width:600px}
 .tag{font-size:19px;color:#9fb4d8;border:1px solid #24324d;background:#121b2e;border-radius:999px;padding:7px 16px}
 .bars{position:absolute;right:72px;top:150px;width:360px}
 .bl{display:flex;flex-direction:column;gap:12px}
