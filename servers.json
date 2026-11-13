@@ -19,8 +19,8 @@
     "mcpName": "io.github.dockndevai/mcp-azure-devops",
     "install": "npx -y @dockndevai/mcp-azure-devops",
     "downloads": {
-      "total": 2622,
-      "last30": 606
+      "total": 2632,
+      "last30": 610
     }
   },
   {
@@ -43,8 +43,8 @@
     "mcpName": "io.github.dockndevai/mcp-kubernetes",
     "install": "npx -y @dockndevai/mcp-kubernetes",
     "downloads": {
-      "total": 2596,
-      "last30": 639
+      "total": 2602,
+      "last30": 629
     }
   },
   {
@@ -67,8 +67,8 @@
     "mcpName": "io.github.dockndevai/mcp-kafka",
     "install": "npx -y @dockndevai/mcp-kafka",
     "downloads": {
-      "total": 2443,
-      "last30": 591
+      "total": 2450,
+      "last30": 595
     }
   },
   {
@@ -91,8 +91,8 @@
     "mcpName": "io.github.dockndevai/mcp-azure",
     "install": "npx -y @dockndevai/mcp-azure",
     "downloads": {
-      "total": 2437,
-      "last30": 381
+      "total": 2441,
+      "last30": 379
     }
   },
   {
@@ -114,8 +114,8 @@
     "mcpName": "io.github.dockndevai/mcp-keycloak",
     "install": "npx -y @dockndevai/mcp-keycloak",
     "downloads": {
-      "total": 2387,
-      "last30": 556
+      "total": 2392,
+      "last30": 554
     }
   },
   {
@@ -139,8 +139,8 @@
     "mcpName": "io.github.dockndevai/mcp-percona-pg",
     "install": "npx -y @dockndevai/mcp-percona-pg",
     "downloads": {
-      "total": 2305,
-      "last30": 593
+      "total": 2315,
+      "last30": 594
     }
   },
   {
@@ -163,8 +163,8 @@
     "mcpName": "io.github.dockndevai/mcp-clickhouse",
     "install": "npx -y @dockndevai/mcp-clickhouse",
     "downloads": {
-      "total": 2219,
-      "last30": 356
+      "total": 2230,
+      "last30": 351
     }
   },
   {
@@ -187,8 +187,8 @@
     "mcpName": "io.github.dockndevai/mcp-debezium",
     "install": "npx -y @dockndevai/mcp-debezium",
     "downloads": {
-      "total": 2172,
-      "last30": 283
+      "total": 2183,
+      "last30": 287
     }
   },
   {
@@ -204,8 +204,8 @@
     "mcpName": "io.github.dockndevai/mcp-grafana",
     "install": "npx -y @dockndevai/mcp-grafana",
     "downloads": {
-      "total": 1998,
-      "last30": 532
+      "total": 2004,
+      "last30": 523
     }
   },
   {
@@ -229,8 +229,8 @@
     "mcpName": "io.github.dockndevai/mcp-oci",
     "install": "npx -y @dockndevai/mcp-oci",
     "downloads": {
-      "total": 1707,
-      "last30": 302
+      "total": 1716,
+      "last30": 299
     }
   },
   {
@@ -255,8 +255,8 @@
     "mcpName": "io.github.dockndevai/mcp-outlook",
     "install": "npx -y @dockndevai/mcp-outlook",
     "downloads": {
-      "total": 1509,
-      "last30": 363
+      "total": 1523,
+      "last30": 337
     }
   },
   {
@@ -282,8 +282,8 @@
     "mcpName": "io.github.dockndevai/ossian-mcp",
     "install": "npx -y ossian-mcp",
     "downloads": {
-      "total": 1275,
-      "last30": 201
+      "total": 1278,
+      "last30": 193
     }
   },
   {
@@ -307,8 +307,8 @@
     "mcpName": "io.github.dockndevai/mcp-cdp",
     "install": "npx -y @dockndevai/mcp-cdp",
     "downloads": {
-      "total": 963,
-      "last30": 479
+      "total": 973,
+      "last30": 482
     }
   },
   {
@@ -333,8 +333,8 @@
     "mcpName": "io.github.dockndevai/mcp-mac-control",
     "install": "npx -y @dockndevai/mcp-mac-control",
     "downloads": {
-      "total": 920,
-      "last30": 146
+      "total": 922,
+      "last30": 145
     }
   },
   {
@@ -350,7 +350,7 @@
     "mcpName": "io.github.dockndevai/mcp-macos",
     "install": "npx -y @dockndevai/mcp-macos",
     "downloads": {
-      "total": 842,
+      "total": 847,
       "last30": 179
     }
   },
@@ -375,8 +375,8 @@
     "mcpName": "io.github.dockndevai/mcp-openshift",
     "install": "npx -y @dockndevai/mcp-openshift",
     "downloads": {
-      "total": 691,
-      "last30": 152
+      "total": 695,
+      "last30": 147
     }
   },
   {
@@ -401,8 +401,8 @@
     "mcpName": "io.github.dockndevai/mcp-teams",
     "install": "npx -y @dockndevai/mcp-teams",
     "downloads": {
-      "total": 685,
-      "last30": 204
+      "total": 693,
+      "last30": 207
     }
   },
   {
@@ -427,8 +427,33 @@
     "mcpName": "io.github.dockndevai/mcp-github-enterprise",
     "install": "npx -y @dockndevai/mcp-github-enterprise",
     "downloads": {
-      "total": 548,
-      "last30": 548
+      "total": 558,
+      "last30": 558
+    }
+  },
+  {
+    "name": "mcp-android",
+    "description": "MCP server to control an Android device over ADB — screenshots, taps, typing, app launch, alarms, notifications — safe-by-default with access modes and gated destructive ops.",
+    "html_url": "https://github.com/dockndevai/mcp-android",
+    "homepage": null,
+    "stars": 0,
+    "language": "TypeScript",
+    "topics": [
+      "adb",
+      "android",
+      "device-control",
+      "llm",
+      "mcp",
+      "mobile",
+      "model-context-protocol"
+    ],
+    "npm": "@dockndevai/mcp-android",
+    "pypi": null,
+    "mcpName": "io.github.dockndevai/mcp-android",
+    "install": "npx -y @dockndevai/mcp-android",
+    "downloads": {
+      "total": 189,
+      "last30": 189
     }
   },
   {
@@ -453,33 +478,8 @@
     "mcpName": "io.github.dockndevai/mcp-ios",
     "install": "npx -y @dockndevai/mcp-ios",
     "downloads": {
-      "total": 181,
-      "last30": 181
-    }
-  },
-  {
-    "name": "mcp-android",
-    "description": "MCP server to control an Android device over ADB — screenshots, taps, typing, app launch, alarms, notifications — safe-by-default with access modes and gated destructive ops.",
-    "html_url": "https://github.com/dockndevai/mcp-android",
-    "homepage": null,
-    "stars": 0,
-    "language": "TypeScript",
-    "topics": [
-      "adb",
-      "android",
-      "device-control",
-      "llm",
-      "mcp",
-      "mobile",
-      "model-context-protocol"
-    ],
-    "npm": "@dockndevai/mcp-android",
-    "pypi": null,
-    "mcpName": "io.github.dockndevai/mcp-android",
-    "install": "npx -y @dockndevai/mcp-android",
-    "downloads": {
-      "total": 181,
-      "last30": 181
+      "total": 187,
+      "last30": 187
     }
   },
   {
@@ -505,7 +505,7 @@
     "install": "pipx install mcp-laya",
     "downloads": {
       "total": null,
-      "last30": 348
+      "last30": 199
     }
   }
 ]
