@@ -19,8 +19,8 @@
     "mcpName": "io.github.dockndevai/mcp-azure-devops",
     "install": "npx -y @dockndevai/mcp-azure-devops",
     "downloads": {
-      "total": 2632,
-      "last30": 610
+      "total": 2645,
+      "last30": 623
     }
   },
   {
@@ -43,8 +43,8 @@
     "mcpName": "io.github.dockndevai/mcp-kubernetes",
     "install": "npx -y @dockndevai/mcp-kubernetes",
     "downloads": {
-      "total": 2602,
-      "last30": 629
+      "total": 2629,
+      "last30": 656
     }
   },
   {
@@ -67,8 +67,8 @@
     "mcpName": "io.github.dockndevai/mcp-kafka",
     "install": "npx -y @dockndevai/mcp-kafka",
     "downloads": {
-      "total": 2450,
-      "last30": 595
+      "total": 2463,
+      "last30": 608
     }
   },
   {
@@ -91,8 +91,8 @@
     "mcpName": "io.github.dockndevai/mcp-azure",
     "install": "npx -y @dockndevai/mcp-azure",
     "downloads": {
-      "total": 2441,
-      "last30": 379
+      "total": 2449,
+      "last30": 387
     }
   },
   {
@@ -114,8 +114,8 @@
     "mcpName": "io.github.dockndevai/mcp-keycloak",
     "install": "npx -y @dockndevai/mcp-keycloak",
     "downloads": {
-      "total": 2392,
-      "last30": 554
+      "total": 2399,
+      "last30": 561
     }
   },
   {
@@ -139,8 +139,8 @@
     "mcpName": "io.github.dockndevai/mcp-percona-pg",
     "install": "npx -y @dockndevai/mcp-percona-pg",
     "downloads": {
-      "total": 2315,
-      "last30": 594
+      "total": 2329,
+      "last30": 608
     }
   },
   {
@@ -163,8 +163,8 @@
     "mcpName": "io.github.dockndevai/mcp-clickhouse",
     "install": "npx -y @dockndevai/mcp-clickhouse",
     "downloads": {
-      "total": 2230,
-      "last30": 351
+      "total": 2241,
+      "last30": 362
     }
   },
   {
@@ -187,8 +187,8 @@
     "mcpName": "io.github.dockndevai/mcp-debezium",
     "install": "npx -y @dockndevai/mcp-debezium",
     "downloads": {
-      "total": 2183,
-      "last30": 287
+      "total": 2195,
+      "last30": 299
     }
   },
   {
@@ -204,8 +204,8 @@
     "mcpName": "io.github.dockndevai/mcp-grafana",
     "install": "npx -y @dockndevai/mcp-grafana",
     "downloads": {
-      "total": 2004,
-      "last30": 523
+      "total": 2014,
+      "last30": 533
     }
   },
   {
@@ -229,8 +229,8 @@
     "mcpName": "io.github.dockndevai/mcp-oci",
     "install": "npx -y @dockndevai/mcp-oci",
     "downloads": {
-      "total": 1716,
-      "last30": 299
+      "total": 1732,
+      "last30": 315
     }
   },
   {
@@ -255,8 +255,8 @@
     "mcpName": "io.github.dockndevai/mcp-outlook",
     "install": "npx -y @dockndevai/mcp-outlook",
     "downloads": {
-      "total": 1523,
-      "last30": 337
+      "total": 1536,
+      "last30": 350
     }
   },
   {
@@ -282,8 +282,8 @@
     "mcpName": "io.github.dockndevai/ossian-mcp",
     "install": "npx -y ossian-mcp",
     "downloads": {
-      "total": 1278,
-      "last30": 193
+      "total": 1292,
+      "last30": 207
     }
   },
   {
@@ -307,8 +307,8 @@
     "mcpName": "io.github.dockndevai/mcp-cdp",
     "install": "npx -y @dockndevai/mcp-cdp",
     "downloads": {
-      "total": 973,
-      "last30": 482
+      "total": 984,
+      "last30": 493
     }
   },
   {
@@ -333,8 +333,8 @@
     "mcpName": "io.github.dockndevai/mcp-mac-control",
     "install": "npx -y @dockndevai/mcp-mac-control",
     "downloads": {
-      "total": 922,
-      "last30": 145
+      "total": 928,
+      "last30": 151
     }
   },
   {
@@ -350,33 +350,8 @@
     "mcpName": "io.github.dockndevai/mcp-macos",
     "install": "npx -y @dockndevai/mcp-macos",
     "downloads": {
-      "total": 847,
-      "last30": 179
-    }
-  },
-  {
-    "name": "mcp-openshift",
-    "description": "Safe-by-default MCP server for OpenShift / Kubernetes — projects, pods, logs, deployments, routes and more, with username/password (local IdP) or token auth.",
-    "html_url": "https://github.com/dockndevai/mcp-openshift",
-    "homepage": null,
-    "stars": 0,
-    "language": "TypeScript",
-    "topics": [
-      "ai",
-      "devops",
-      "k8s",
-      "kubernetes",
-      "mcp",
-      "model-context-protocol",
-      "openshift"
-    ],
-    "npm": "@dockndevai/mcp-openshift",
-    "pypi": null,
-    "mcpName": "io.github.dockndevai/mcp-openshift",
-    "install": "npx -y @dockndevai/mcp-openshift",
-    "downloads": {
-      "total": 695,
-      "last30": 147
+      "total": 854,
+      "last30": 186
     }
   },
   {
@@ -401,8 +376,33 @@
     "mcpName": "io.github.dockndevai/mcp-teams",
     "install": "npx -y @dockndevai/mcp-teams",
     "downloads": {
-      "total": 693,
-      "last30": 207
+      "total": 706,
+      "last30": 220
+    }
+  },
+  {
+    "name": "mcp-openshift",
+    "description": "Safe-by-default MCP server for OpenShift / Kubernetes — projects, pods, logs, deployments, routes and more, with username/password (local IdP) or token auth.",
+    "html_url": "https://github.com/dockndevai/mcp-openshift",
+    "homepage": null,
+    "stars": 0,
+    "language": "TypeScript",
+    "topics": [
+      "ai",
+      "devops",
+      "k8s",
+      "kubernetes",
+      "mcp",
+      "model-context-protocol",
+      "openshift"
+    ],
+    "npm": "@dockndevai/mcp-openshift",
+    "pypi": null,
+    "mcpName": "io.github.dockndevai/mcp-openshift",
+    "install": "npx -y @dockndevai/mcp-openshift",
+    "downloads": {
+      "total": 704,
+      "last30": 156
     }
   },
   {
@@ -427,8 +427,8 @@
     "mcpName": "io.github.dockndevai/mcp-github-enterprise",
     "install": "npx -y @dockndevai/mcp-github-enterprise",
     "downloads": {
-      "total": 558,
-      "last30": 558
+      "total": 572,
+      "last30": 572
     }
   },
   {
@@ -452,8 +452,8 @@
     "mcpName": "io.github.dockndevai/mcp-android",
     "install": "npx -y @dockndevai/mcp-android",
     "downloads": {
-      "total": 189,
-      "last30": 189
+      "total": 200,
+      "last30": 200
     }
   },
   {
@@ -478,8 +478,8 @@
     "mcpName": "io.github.dockndevai/mcp-ios",
     "install": "npx -y @dockndevai/mcp-ios",
     "downloads": {
-      "total": 187,
-      "last30": 187
+      "total": 198,
+      "last30": 198
     }
   },
   {
@@ -505,7 +505,7 @@
     "install": "pipx install mcp-laya",
     "downloads": {
       "total": null,
-      "last30": 199
+      "last30": 188
     }
   }
 ]
