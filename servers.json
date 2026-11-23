@@ -503,13 +503,16 @@
     "pypi": "mcp-laya",
     "mcpName": null,
     "install": "pipx install mcp-laya",
-    "downloads": null
+    "downloads": {
+      "total": null,
+      "last30": 159
+    }
   },
   {
     "name": "mcp-postgres",
     "description": "Governed PostgreSQL MCP server: schema exploration, read-only SQL, query plans & safe changes for AI agents. Read-only by default.",
     "html_url": "https://github.com/dockndevai/mcp-postgres",
-    "homepage": "https://www.npmjs.com/package/@dockndevai/mcp-postgres",
+    "homepage": "https://dockndevai.github.io/",
     "stars": 0,
     "language": "TypeScript",
     "topics": [
